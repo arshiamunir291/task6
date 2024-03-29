@@ -1,0 +1,30 @@
+@import url('../css/fonts.css');
+.Stack_Cards .card{
+    background: rgba(215, 245, 157, 1);
+    border: 1.5px solid rgba(137, 137, 137, 1);
+    border-radius: 12px;
+    margin-bottom: 0;
+    height: 100%;
+}
+.Stack_Cards .card .card-header{
+    padding-bottom: 0;
+}
+.Stack_Cards .card .card-header .Headings h4{
+    color: rgba(42, 42, 42, 1);
+    font-size: 14px;
+}
+.Stack_Cards .card .card-header .Headings p,
+.Stack_Cards .card .card-header .Total_Contracts p{
+    color: rgba(112, 0, 255, 1);
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.Stack_Cards .card .card-header .Total_Contracts h2{
+    color: rgba(42, 42, 42, 1);
+    font-size: 16px;
+}
+.Stack_Cards .card .apexcharts-canvas .apexcharts-text{
+    fill: rgba(42, 42, 42, 1) !important;
+    font-size: 36px;
+    font-family: 'Clash_Display_Bold' !important;
+}
