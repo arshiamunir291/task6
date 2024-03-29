@@ -18,10 +18,30 @@
     font-family: 'Clash_Display_Light';
     src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Light.ttf');
 }
+@font-face {
+    font-family: 'Raleway_Bold';
+    src: url('../fonts/Raleway/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'Raleway_SemiBold';
+    src: url('../fonts/Raleway/Raleway-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Raleway_Medium';
+    src: url('../fonts/Raleway/Raleway-Medium.ttf');
+}
+@font-face {
+    font-family: 'Raleway_Regular';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Raleway_Light';
+    src: url('../fonts/Raleway/Raleway-Light.ttf');
+}
 h1, h2, h3{
     font-family: 'Clash_Display_Bold';
 }
-h4, h5, h6, button{
+h4, h5, h6, button, th{
     font-family: 'Clash_Display_Medium';
 }
 p, span, label, a{

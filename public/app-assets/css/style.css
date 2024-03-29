@@ -28,3 +28,70 @@
     font-size: 36px;
     font-family: 'Clash_Display_Bold' !important;
 }
+#basic-table .card{
+    background: rgba(251, 255, 206, 0.77);
+    padding: 0 16px;
+}
+
+/* Step Form */
+.Step_First{
+    background: rgba(215, 245, 157, 0.77);
+    border: 1.5px solid rgba(137, 137, 137, 1);
+    border-radius: 20px;
+    padding: 26px;
+}
+.Step_First .InnerText h3{
+    font-family: 'Raleway_Bold';
+    font-size: 25px;
+    color: #000;
+}
+.Step_First .InnerText h3.Txt_blue{
+    color: rgba(54, 144, 209, 1);
+    font-size: 30px;
+}
+.Step_First .InnerText p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.NextBtns_bots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NextBtns_bots .DotsLeft {
+    display: flex;
+    gap: 6px;
+}
+.NextBtns_bots .DotsLeft span {
+    width: 8px;
+    height: 8px;
+    display: block;
+    background: rgba(136, 136, 136, 1);
+    box-shadow: 0px 0px 1.3750921487808228px 0px rgba(143, 143, 143, 0.5);
+    border-radius: 50%;
+}
+.NextBtns_bots .DotsLeft span.active{
+    background: rgba(52, 52, 52, 1);
+}
+.NextBtns_bots .InnerBtns{
+    
+}
+.NextBtns_bots .InnerBtns .backBtn {
+    border: 1px solid rgba(130, 130, 130, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    padding: 12px 30px 12px 30px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    margin-right: 12px;
+    font-family: 'Raleway_Light';
+}
+.NextBtns_bots .InnerBtns .startedBtn {
+    background: rgba(66, 164, 255, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    padding: 12px 30px 12px 30px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Raleway_Light';
+    border: 1px solid rgba(66, 164, 255, 1);
+}
