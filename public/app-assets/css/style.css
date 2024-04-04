@@ -1,67 +1,81 @@
 @import url('../css/fonts.css');
-.Stack_Cards .card{
+
+.Stack_Cards .card {
     background: rgba(215, 245, 157, 1);
     border: 1.5px solid rgba(137, 137, 137, 1);
     border-radius: 12px;
     margin-bottom: 0;
     height: 100%;
 }
-.Stack_Cards .card .card-header{
+
+.Stack_Cards .card .card-header {
     padding-bottom: 0;
 }
-.Stack_Cards .card .card-header .Headings h4{
+
+.Stack_Cards .card .card-header .Headings h4 {
     color: rgba(42, 42, 42, 1);
     font-size: 14px;
 }
+
 .Stack_Cards .card .card-header .Headings p,
-.Stack_Cards .card .card-header .Total_Contracts p{
+.Stack_Cards .card .card-header .Total_Contracts p {
     color: rgba(112, 0, 255, 1);
     font-size: 10px;
     margin-bottom: 0;
 }
-.Stack_Cards .card .card-header .Total_Contracts h2{
+
+.Stack_Cards .card .card-header .Total_Contracts h2 {
     color: rgba(42, 42, 42, 1);
     font-size: 16px;
 }
-.Stack_Cards .card .apexcharts-canvas .apexcharts-text{
+
+.Stack_Cards .card .apexcharts-canvas .apexcharts-text {
     fill: rgba(42, 42, 42, 1) !important;
     font-size: 36px;
     font-family: 'Clash_Display_Bold' !important;
 }
-#basic-table .card{
+
+#basic-table .card {
     background: rgba(251, 255, 206, 0.77);
     padding: 0 16px;
 }
 
 /* Step Form */
-.Step_First{
+.Step_First {
     background: rgba(215, 245, 157, 0.77);
     border: 1.5px solid rgba(137, 137, 137, 1);
     border-radius: 20px;
     padding: 26px;
 }
-.Step_First .InnerText h3{
+
+.Step_First .InnerText h3 {
     font-family: 'Raleway_Bold';
     font-size: 25px;
     color: #000;
+    text-transform: uppercase;
 }
-.Step_First .InnerText h3.Txt_blue{
+
+.Step_First .InnerText h3.Txt_blue {
     color: rgba(54, 144, 209, 1);
     font-size: 30px;
 }
-.Step_First .InnerText p{
+
+.Step_First .InnerText p {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.7);
 }
+
 .NextBtns_bots {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .NextBtns_bots .DotsLeft {
     display: flex;
     gap: 6px;
 }
+
 .NextBtns_bots .DotsLeft span {
     width: 8px;
     height: 8px;
@@ -70,12 +84,13 @@
     box-shadow: 0px 0px 1.3750921487808228px 0px rgba(143, 143, 143, 0.5);
     border-radius: 50%;
 }
-.NextBtns_bots .DotsLeft span.active{
+
+.NextBtns_bots .DotsLeft span.active {
     background: rgba(52, 52, 52, 1);
 }
-.NextBtns_bots .InnerBtns{
-    
-}
+
+.NextBtns_bots .InnerBtns {}
+
 .NextBtns_bots .InnerBtns .backBtn {
     border: 1px solid rgba(130, 130, 130, 1);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
@@ -85,6 +100,7 @@
     margin-right: 12px;
     font-family: 'Raleway_Light';
 }
+
 .NextBtns_bots .InnerBtns .startedBtn {
     background: rgba(66, 164, 255, 1);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
@@ -95,3 +111,534 @@
     font-family: 'Raleway_Light';
     border: 1px solid rgba(66, 164, 255, 1);
 }
+
+/* Recieved payment */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ralewayfont';
+    src: url('../fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ralewayfont2';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+}
+
+.Sendertabs {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.Sendertabs button {
+    font-family: 'Gilroy';
+    background: rgba(215, 245, 157, 0.77);
+    border-radius: 10px;
+    border: 1px solid #8D8D8D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 338px;
+    height: 206px;
+    align-items: center;
+    color: #3E3E3E;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 33.65127944946289px 3.365128517150879px #3333331F;
+}
+
+.Sendertabs .active {
+    zoom: 1.05;
+}
+
+.tabs_section .InnerBtns .backBtn {
+    background: transparent;
+    font-weight: 600;
+}
+
+.tabs_section .InnerBtns .startedBtn {
+    font-weight: 600;
+}
+
+.tabs_section .NextBtns_bots {
+    margin-top: 200px;
+}
+
+.tabs_section .hidetest {
+    display: none;
+
+}
+
+.oter_page .Purchase_form label {
+    display: block;
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.oter_page .Purchase_form input.account_nmbr {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+
+}
+
+.oter_page .Purchase_form input::placeholder {
+    font-family: 'Ralewayfont';
+    font-size: 15px;
+    opacity: 60%;
+
+}
+
+.oter_page .Purchase_form textarea {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    Height: 120px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    resize: none;
+
+}
+
+.oter_page .Purchase_form textarea::placeholder {
+    font-family: 'Ralewayfont';
+    font-size: 15px;
+    opacity: 60%;
+
+}
+
+.oter_page .schedule_dates input {
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    Height: 42px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    padding-left: 50px;
+}
+
+.oter_page .schedule_dates .d-flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.oter_page .schedule_dates input::placeholder {
+    font-family: 'Ralewayfont';
+    font-size: 15px;
+    opacity: 60%;
+}
+
+.oter_page .schedule_dates .select_dateinput {
+    position: relative;
+}
+
+.oter_page .schedule_dates .select_dateinput img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.oter_page .schedule_dates .select_dateinput2 {
+    position: relative;
+}
+
+.oter_page .schedule_dates .select_dateinput2 img {
+    position: absolute;
+    top: 15px;
+    left: 19px;
+}
+
+.oter_page .schedule_dates .select_dateinput2 input {
+    padding-left: 35px;
+    width: 100%;
+}
+
+.oter_page .form_submit input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+
+.oter_page .form_submit input::placeholder {
+    font-family: 'Ralewayfont';
+    font-size: 15px;
+    opacity: 60%;
+}
+
+.oter_page .form_submit label {
+    display: block;
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.oter_page .form_submit .paymewnt_iccue button {
+    font-family: 'Ralewayfont';
+    font-size: 15px;
+    padding: 7px 13px 7px 13px;
+    border-radius: 18px;
+    background: #FFFFFF;
+    border: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.oter_page .form_submit .paymewnt_iccue {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.oter_page .form_submit .paymewnt_iccue button img {
+    margin-right: 10px;
+
+}
+
+.oter_page .form_submit .paymewnt_iccue button span {
+    opacity: 60%;
+}
+
+.oter_page .form_submit .upload button {
+    padding: 11px 45px 11px 46px;
+    border-radius: 26px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    background: #58C7FF;
+    border: 1px solid #E1E1E1;
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.purchase .InnerBtns .backBtn {
+    background: transparent;
+    font-weight: 600;
+}
+
+.purchase .InnerBtns .startedBtn {
+    font-weight: 600;
+}
+
+.step_formsrecieved .stepwizard-step p {
+    margin-top: 10px;
+}
+
+.step_formsrecieved .wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+
+.step_formsrecieved .wizard>div.wizard-inner {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.step_formsrecieved .connecting-line {
+    height: 2px;
+    background: #FFFFFF;
+    position: absolute;
+    width: 75%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 15px;
+    z-index: 1;
+}
+
+.step_formsrecieved .wizard .nav-tabs>li.active>a,
+.step_formsrecieved .wizard .nav-tabs>li.active>a:hover,
+.step_formsrecieved .wizard .nav-tabs>li.active>a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+.step_formsrecieved span.round-tab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #0e214b;
+    font-weight: 500;
+    border: 1px solid #ddd;
+}
+
+.step_formsrecieved span.round-tab i {
+    color: #555555;
+}
+
+.step_formsrecieved .wizard li.active span.round-tab {
+    background: #42A4FF;
+    color: #fff;
+    border-color: #42A4FF;
+}
+
+.step_formsrecieved .wizard li.active span.round-tab i {
+    color: #5bc0de;
+}
+
+.step_formsrecieved .wizard .nav-tabs>li {
+    width: 25%;
+}
+
+.step_formsrecieved .wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    transition: 0.1s ease-in-out;
+}
+
+
+
+.step_formsrecieved .wizard .nav-tabs>li a {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+
+.step_formsrecieved .wizard .nav-tabs>li a i {
+    position: absolute;
+    top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    white-space: nowrap;
+    left: 17px;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+}
+
+.step_formsrecieved .wizard .nav-tabs>li a:hover {
+    background: transparent;
+}
+
+/* Recieved payment */
+/* Sender payment */
+.tabs_sectionsender .InnerText p {
+    font-family: 'Raleway_Bold';
+    font-size: 19px;
+    color: #0056D8;
+    text-transform: uppercase;
+}
+
+.tabs_sectionsender .step2 label {
+    display: block;
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.tabs_sectionsender .step2 .Refundable input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+.tabs_sectionsender .step2 .schedule_dates input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 20px 12px 42px;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+
+.tabs_sectionsender .step2 .Refundable input::placeholder {
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+}
+
+.tabs_sectionsender .step2 .Refundable .select_dateinput2 {
+    position: relative;
+}
+
+.tabs_sectionsender .step2 .Refundable .select_dateinput2 img {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+}
+
+.tabs_sectionsender .step2 .Intermediary .select_dateinput2 img {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+}
+
+.tabs_sectionsender .step2 .Intermediary .select_dateinput2 {
+    position: relative;
+}
+
+.tabs_sectionsender .step2 .datepickerfields input::placeholder {
+    color: #000000;
+    opacity: 60%;
+
+
+}
+.tabs_sectionsender .step2 .schedule_dates  .select_dateinput {
+    position: relative;
+}
+.tabs_sectionsender .step2 .schedule_dates  .select_dateinput img {
+   position: absolute;
+   top: 14px;
+   left: 13px;
+}
+.tabs_sectionsender .step2 .schedule_dates  .datepickerfields {
+   gap:20px;
+   flex-wrap: wrap;
+}
+.tabs_sectionsender .step2 .Intermediary input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+.tabs_sectionsender .step2 .Intermediary input::placeholder {
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+}
+/*  */
+.tabs_sectionsender .step3 label {
+    display: block;
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.tabs_sectionsender .step3 .Refundable input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+.tabs_sectionsender .step3 .schedule_dates input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 20px 12px 42px;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+
+.tabs_sectionsender .step3 .Refundable input::placeholder {
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+}
+
+.tabs_sectionsender .step3 .Refundable .select_dateinput2 {
+    position: relative;
+}
+
+.tabs_sectionsender .step3 .Refundable .select_dateinput2 img {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+}
+
+.tabs_sectionsender .step3 .Intermediary .select_dateinput2 img {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+}
+
+.tabs_sectionsender .step3 .Intermediary .select_dateinput2 {
+    position: relative;
+}
+
+.tabs_sectionsender .step3 .datepickerfields input::placeholder {
+    color: #000000;
+    opacity: 60%;
+
+
+}
+.tabs_sectionsender .step3 .schedule_dates  .select_dateinput {
+    position: relative;
+}
+.tabs_sectionsender .step3 .schedule_dates  .select_dateinput img {
+   position: absolute;
+   top: 14px;
+   left: 13px;
+}
+.tabs_sectionsender .step3 .schedule_dates  .datepickerfields {
+   gap:20px;
+   flex-wrap: wrap;
+}
+.tabs_sectionsender .step3 .Intermediary input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+.tabs_sectionsender .step3 .Intermediary input::placeholder {
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+}
+/*  */
+/* Sender payment */

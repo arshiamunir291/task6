@@ -60,7 +60,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="d-flex align-items-center" href="app-invoice-preview.html">
+                        <a class="d-flex align-items-center" href="{{ route('recieved') }}">
                             <img src="{{ asset('app-assets/images/dash_images/recieved-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Preview">Received</span>
                         </a>
