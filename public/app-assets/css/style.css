@@ -122,6 +122,10 @@
     font-family: 'Ralewayfont';
     src: url('../fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Ralewayfontbold';
+    src: url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
 
 @font-face {
     font-family: 'Ralewayfont2';
@@ -643,4 +647,187 @@
     color: #2D5BFF;
 }
 /*  */
+/*  */
+.tabs_sectionsender .step4 label {
+    display: block;
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.tabs_sectionsender .step4 .Refundable input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+.tabs_sectionsender .step4 .schedule_dates input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 20px 12px 42px;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+
+.tabs_sectionsender .step4 .Refundable input::placeholder {
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+}
+
+.tabs_sectionsender .step4 .Refundable .select_dateinput2 {
+    position: relative;
+}
+
+.tabs_sectionsender .step4 .Refundable .select_dateinput2 img {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+}
+
+.tabs_sectionsender .step4 .Intermediary .select_dateinput2 img {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+}
+
+.tabs_sectionsender .step4 .Intermediary .select_dateinput2 {
+    position: relative;
+}
+
+.tabs_sectionsender .step4 .datepickerfields input::placeholder {
+    color: #000000;
+    opacity: 60%;
+
+
+}
+.tabs_sectionsender .step4 .schedule_dates  .select_dateinput {
+    position: relative;
+}
+.tabs_sectionsender .step4 .schedule_dates  .select_dateinput img {
+   position: absolute;
+   top: 14px;
+   left: 13px;
+}
+.tabs_sectionsender .step4 .schedule_dates  .datepickerfields {
+   gap:20px;
+   flex-wrap: wrap;
+}
+.tabs_sectionsender .step4 .Intermediary input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 191px 12px 29px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+.tabs_sectionsender .step4 .Intermediary input::placeholder {
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+}
+.tabs_sectionsender .step4 .add_userbtn button {
+    background: transparent;
+    border: none;
+
+}
+.tabs_sectionsender .step4 .stepform_2 span{
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+
+}
+.tabs_sectionsender .step4 .stepform_2 span{
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    color: #2D5BFF;
+
+}
+.tabs_sectionsender .step4 .stepform_2 .data{
+    gap: 25%;
+    flex-wrap: wrap;
+
+}
+/*  */
 /* Sender payment */
+/* contract Summary */
+.contractsummary  .MultiForm_Wrap label{
+    display: block;
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+}
+.contractsummary  .MultiForm_Wrap .summary-wrap{
+   float: right;
+}
+.contractsummary  .MultiForm_Wrap .summary-wrap .date-wrap{
+width: fit-content;
+background: #fff;
+border: 0.9px solid #E1E1E1;
+box-shadow: 0px 0px 16.22px -4.5px #0000001A;
+border-radius: 10px;
+margin-bottom: 20px;
+
+}
+.contractsummary  .MultiForm_Wrap .summary-wrap .date-wrap p{
+    font-family: 'Ralewayfont';
+    font-size: 15px;
+    color: #00000099;
+    opacity: 60%;
+    padding: 13px 90px 12px 28px;
+    margin: 0px;
+}
+.contractsummary  .MultiForm_Wrap .head-wrap h2{
+    font-family: 'Ralewayfontbold';
+    font-size: 22px;
+    color: #101010;
+    margin-top: -50px;
+    text-transform: uppercase;
+}
+.contractsummary  .MultiForm_Wrap .sender-wrap .sender-title p,
+.contractsummary  .MultiForm_Wrap .reciver-wrap .Reciever-title p{
+    font-family: 'Ralewayfont';
+    font-size: 20px;
+    color: #578ED5;
+    margin-top: -50px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.contractsummary  .MultiForm_Wrap .sender-wrap input,
+.contractsummary  .MultiForm_Wrap .reciver-wrap input{
+    border: 1px solid #E1E1E1;
+    padding: 12px 68px 12px 29px;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Ralewayfont2';
+    font-size: 15px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+}
+.contractsummary .col6row{
+    max-width: 70%;
+    margin: auto;
+}
+.contractsummary .col6_col{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.contractsummary  .MultiForm_Wrap .Agrement p{
+    font-family: 'Ralewayfont';
+    font-size: 20px;
+    color: #578ED5;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+/* contract Summary */

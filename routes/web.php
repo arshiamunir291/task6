@@ -13,3 +13,6 @@ Route::get('/Purchase', function () {
 Route::get('/Sender', function () {
     return view('dashboard.layouts.Sender');
 });
+Route::get('/Contract', function () {
+    return view('dashboard.layouts.Contractsummary');
+});
