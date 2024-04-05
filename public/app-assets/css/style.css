@@ -136,7 +136,7 @@
     flex-wrap: wrap;
 }
 
-.Sendertabs button {
+.Sendertabs label {
     font-family: 'Gilroy';
     background: rgba(215, 245, 157, 0.77);
     border-radius: 10px;
@@ -152,9 +152,11 @@
     text-transform: uppercase;
     box-shadow: 0px 0px 33.65127944946289px 3.365128517150879px #3333331F;
 }
-
-.Sendertabs .active {
-    zoom: 1.05;
+.Sendertabs input[type="radio"] {
+    display: none;
+}
+.Sendertabs.active {
+    transform: scale(1.13);
 }
 
 .tabs_section .InnerBtns .backBtn {

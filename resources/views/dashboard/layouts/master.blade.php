@@ -81,6 +81,7 @@
     @include('dashboard.layouts.footer')
     <!-- END: Footer-->
     @include('dashboard.layouts.scripts')
+    @yield('js')
 </body>
 <!-- END: Body-->
 

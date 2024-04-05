@@ -38,8 +38,8 @@ Dashboard
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center step1">
-                <div class="col-md-3">
+                {{-- <div class="row justify-content-center step1">
+                    <div class="col-md-3">
                         <div class="Sendertabs">
                             <button class="active">
                                 <img src="{{ asset('app-assets/images/recieved/product.png') }}" alt="">
@@ -64,56 +64,88 @@ Dashboard
                             </button>
                         </div>
                     </div>
+                </div> --}}
+                <div class="row justify-content-center step1">
+                    <div class="col-md-3">
+                        <div class="Sendertabs">
+                            <label class="">
+                                <input type="radio" name="sender" value="products">
+                                <img src="{{ asset('app-assets/images/recieved/product.png') }}" alt=""> Products
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="Sendertabs">
+                            <label class="">
+                                <input type="radio" name="sender" value="services">
+                                <img src="{{ asset('app-assets/images/recieved/service.png') }}" alt=""> Services
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="Sendertabs">
+                            <label class="">
+                                <input type="radio" name="sender" value="other_purchase">
+                                <img src="{{ asset('app-assets/images/recieved/otherpurchase.png') }}" alt=""> Other Purchase
+                            </label>
+                        </div>
+                    </div>
                 </div>
                 <div class="row justify-content-between hidetest step2">
-                <div class="col-md-3">
+                    <div class="col-md-3">
                         <div class="Sendertabs">
-                            <button class="active">
+                            <label class="">
+                                <input type="radio" name="sender" value="other_purchase">
                                 <img src="{{ asset('app-assets/images/recieved/dates.png') }}" alt="">
                                 Start/End Date
-                            </button>
+                            </label>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="Sendertabs">
-                            <button>
+                            <label class="">
+                                <input type="radio" name="sender" value="other_purchase">
                                 <img src="{{ asset('app-assets/images/recieved/arival.png') }}" alt="">
                                 Departure/Arrivals
-                            </button>
+                            </label>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="Sendertabs">
-                            <button>
+                            <label class="">
+                                <input type="radio" name="sender" value="other_purchase">
                                 <img src="{{ asset('app-assets/images/recieved/pick.png') }}" alt="">
                                 Pick/ Drop dates
-                            </button>
+                            </label>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="Sendertabs">
-                            <button>
+                            <label class="">
+                                <input type="radio" name="sender" value="other_purchase">
                                 <img src="{{ asset('app-assets/images/recieved/checkin.png') }}" alt="">
                                 Check in/out
-                            </button>
+                            </label>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center hidetest step3">
-                <div class="col-md-3">
+                    <div class="col-md-3">
                         <div class="Sendertabs">
-                            <button class="">
+                            <label class="">
+                                <input type="radio" name="sender" value="other_purchase">
                                 <img src="{{ asset('app-assets/images/recieved/moneytransfor.png') }}" alt="">
                                 Money Transfer
-                            </button>
+                            </label>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="Sendertabs">
-                            <button>
+                            <label class="">
+                                <input type="radio" name="sender" value="other_purchase">
                                 <img src="{{ asset('app-assets/images/recieved/billpayment.png') }}" alt="">
                                 Bill Payment
-                            </button>
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -175,5 +207,43 @@ Dashboard
     });
 
 </script>
+@endsection
+@section('js')
+<script>
+// $(document).ready(function(){
+//     // Listen for changes in the radio button selection
+//     $('.Sendertabs input[type="radio"]').change(function() {
+//         // Remove active class from all Sendertabs
+//         $('.Sendertabs').removeClass('active');
+        
+//         // Check if any radio button is checked
+//         if($(this).is(':checked')){
+//             $(this).closest('.Sendertabs').addClass('active');
+//         }
+//     });
+// });
 
+$(document).ready(function(){
+    // Listen for changes in the radio button selection
+    $('.Sendertabs input[type="radio"]').change(function() {
+        // Remove active class from all Sendertabs
+        $('.Sendertabs').removeClass('active');
+        
+        // Check if any radio button is checked
+        if($(this).is(':checked')){
+            $(this).closest('.Sendertabs').addClass('active');
+        }
+    });
+
+    // Listen for clicks on the document body
+    $(document.body).on('click', function(event) {
+        // Check if the clicked element is not within the Sendertabs area
+        if (!$(event.target).closest('.Sendertabs').length) {
+            // Remove active class from all Sendertabs
+            $('.Sendertabs').removeClass('active');
+        }
+    });
+});
+
+</script>
 @endsection
