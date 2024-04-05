@@ -42,10 +42,11 @@
 
 /* Step Form */
 .Step_First {
+    position: relative;
     background: rgba(215, 245, 157, 0.77);
     border: 1.5px solid rgba(137, 137, 137, 1);
     border-radius: 20px;
-    padding: 26px;
+    padding: 3rem 3rem 10rem;
 }
 
 .Step_First .InnerText h3 {
@@ -65,6 +66,12 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
+.NextBtns_botsWrap{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+}
 .NextBtns_bots {
     display: flex;
     justify-content: space-between;
@@ -112,6 +119,39 @@
     border: 1px solid rgba(66, 164, 255, 1);
 }
 
+.FormStepLine .FormStep{
+    position: relative;
+}
+.FormStepLine .FormStep::before {
+    content: '';
+    position: absolute;
+    left: calc(100% - 50%);
+    background-color: rgba(180, 180, 180, 1);
+    width: 0.5px;
+    height: 75%;
+    bottom: 0;
+}
+.FormStep .form-label{
+    font-family: 'Raleway_Bold';
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+}
+.FormStep h2{
+    font-family: 'Raleway_Bold';
+    color: #000;
+    font-size: 33px;
+}
+.FormStep h4.card-title{
+    font-family: 'Raleway_Bold';
+    font-size: 22px;
+    color: #000;
+}
+p.Step_Count{
+    font-family: 'Raleway_Light';
+    font-size: 18px;
+    color: rgba(78, 78, 78, 1);
+}
 /* Recieved payment */
 @font-face {
     font-family: 'Gilroy';
@@ -137,6 +177,7 @@
 }
 
 .Sendertabs label {
+    font-size: 18px;
     font-family: 'Gilroy';
     background: rgba(215, 245, 157, 0.77);
     border-radius: 10px;
@@ -168,9 +209,9 @@
     font-weight: 600;
 }
 
-.tabs_section .NextBtns_bots {
+/* .tabs_section .NextBtns_bots {
     margin-top: 200px;
-}
+} */
 
 .tabs_section .hidetest {
     display: none;
@@ -348,7 +389,8 @@
     margin-top: 10px;
 }
 
-.step_formsrecieved .wizard .nav-tabs {
+.step_formsrecieved .wizard .nav-tabs,
+.DotsLeft .nav-tabs {
     position: relative;
     margin-bottom: 0;
     border-bottom-color: transparent;
@@ -374,17 +416,35 @@
 
 .step_formsrecieved .wizard .nav-tabs>li.active>a,
 .step_formsrecieved .wizard .nav-tabs>li.active>a:hover,
-.step_formsrecieved .wizard .nav-tabs>li.active>a:focus {
+.step_formsrecieved .wizard .nav-tabs>li.active>a:focus,
+.DotsLeft .nav-tabs>li.active>a,
+.DotsLeft .nav-tabs>li.active>a:hover,
+.DotsLeft .nav-tabs>li.active>a:focus{
     color: #555555;
     cursor: default;
     border: 0;
     border-bottom-color: transparent;
 }
 
-.step_formsrecieved span.round-tab {
+.step_formsrecieved span.round-tab{
     width: 30px;
     height: 30px;
     line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #0e214b;
+    font-weight: 500;
+    border: 1px solid #ddd;
+}
+.DotsLeft span.round-tab {
+    width: 8px;
+    height: 8px;
     display: inline-block;
     border-radius: 50%;
     background: #fff;
@@ -401,8 +461,11 @@
 .step_formsrecieved span.round-tab i {
     color: #555555;
 }
-
-.step_formsrecieved .wizard li.active span.round-tab {
+.DotsLeft .nav-tabs{
+    width: 70px;
+}
+.step_formsrecieved .wizard li.active span.round-tab,
+.DotsLeft .nav-tabs li.active  span.round-tab{
     background: #42A4FF;
     color: #fff;
     border-color: #42A4FF;
@@ -412,7 +475,8 @@
     color: #5bc0de;
 }
 
-.step_formsrecieved .wizard .nav-tabs>li {
+.step_formsrecieved .wizard .nav-tabs>li,
+.DotsLeft .nav-tabs>li {
     width: 25%;
 }
 
@@ -428,9 +492,8 @@
     transition: 0.1s ease-in-out;
 }
 
-
-
-.step_formsrecieved .wizard .nav-tabs>li a {
+.step_formsrecieved .wizard .nav-tabs>li a,
+.DotsLeft .nav-tabs>li a {
     width: 30px;
     height: 30px;
     margin: 20px auto;
