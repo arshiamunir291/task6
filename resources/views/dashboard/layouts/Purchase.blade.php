@@ -27,8 +27,7 @@ OTHER PURCHASES PAGE
                                 <input class="account_nmbr mb-1" type="password" placeholder="XXXXXXXXXXXXXXXXXXXXXXXX">
                                 <div class="mb-1">
                                     <label for="">Description</label>
-                                    <textarea name="" id="" cols="30" rows="10"
-                                        placeholder="Write down the description here"></textarea>
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Write down the description here"></textarea>
                                 </div>
                                 <div class="schedule_dates">
                                     <div class="d-flex">
@@ -36,18 +35,15 @@ OTHER PURCHASES PAGE
                                             <label for="">Departure Date</label>
                                             <div class="select_dateinput">
                                                 <input class="date" type="text" placeholder="--/--/--">
-                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}"
-                                                    alt="">
+                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
                                             </div>
-
                                         </div>
                                         <div class="mb-1">
                                             <label for="">Arrival Date</label>
                                             <div class="select_dateinput">
                                                 <input class="date" type="text" placeholder="--/--/--" id="datepicker"> 
-                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}"
-                                                    alt="">
-                                                    <div class="calendar"></div>
+                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}"alt="">
+                                                <div class="calendar"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -56,31 +52,22 @@ OTHER PURCHASES PAGE
                                         <div class="d-flex mb-1">
                                             <div class="select_dateinput">
                                                 <input class="date" type="text" placeholder="--/--/--">
-                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}"
-                                                    alt="">
+                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
                                             </div>
                                             <div class="select_dateinput mb-1">
                                                 <input class="date" type="text" placeholder="--/--/--">
-                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}"
-                                                    alt="">
+                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
                                             </div>
                                         </div>
-
                                     </div>
-
                                     <div>
                                         <label for="">Non-Refundable Deposit Option</label>
                                         <div class="select_dateinput2">
                                             <input type="text" placeholder="4.5k">
                                             <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
                                         </div>
-
-
                                     </div>
                                 </div>
-
-
-
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -98,10 +85,10 @@ OTHER PURCHASES PAGE
                                        <img src="{{ asset('app-assets/images/recieved/issue.png') }}" alt=""><span>Payment iccue</span> 
                                     </button>
                                     <button>
-                                    <img src="{{ asset('app-assets/images/recieved/issue.png') }}" alt=""> <span>Payment iccue</span>
+                                        <img src="{{ asset('app-assets/images/recieved/issue.png') }}" alt=""> <span>Payment iccue</span>
                                     </button>
                                     <button>
-                                    <img src="{{ asset('app-assets/images/recieved/issue.png') }}" alt=""> <span>Payment iccue</span>
+                                        <img src="{{ asset('app-assets/images/recieved/issue.png') }}" alt=""> <span>Payment iccue</span>
                                     </button>
                                 </div>
                                 <div class="mb-1">
@@ -110,21 +97,13 @@ OTHER PURCHASES PAGE
                                 </div>
                                 <div class="upload">
                                     <label for="">Document Upload</label>
-                                    <button>
-                                        Upload
-                                    </button>
+                                    <button>Upload</button>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </form>
-
                     <div class="col-md-6">
-
                     </div>
-
                     <div class="NextBtns_bots justify-content-end">
                         <div class="DotsLeft d-none">
                             <span class="active"></span>
