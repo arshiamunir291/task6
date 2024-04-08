@@ -1156,3 +1156,61 @@ p.Step_Count {
 }
 /* otp */
 /* contract Summary */
+/* transection Contract */
+.transection_dashboard  .Step_First{
+    background: #FBFFCEC4;
+    border: 1.44px solid #898989
+}
+.transection_dashboard .Step_First .range button,
+.transection_dashboard .Step_First .status button{
+    background: #FFFFFF;
+}
+.transection_dashboard .Step_First .range .dropdown-toggle::after ,
+.transection_dashboard .Step_First .status .dropdown-toggle::after {
+    background-image: url("../images/recieved/statusdropdown.png");
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+
+}
+.transection_dashboard .Step_First .filters button {
+    background-color: #0C99FF !important;
+    box-shadow: 0px 0px 10.35px 0px #00000014;
+    border: none !important;
+}
+.transection_dashboard .Step_First .filters button:hover{
+    box-shadow: 0 8px 25px -8px #0C99FF !important;
+
+}
+.transection_dashboard .transdetail_chart table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+.transection_dashboard .transdetail_chart table thead th{
+    padding: 20px;
+    text-align: center;
+}
+.transection_dashboard .transdetail_chart table td{
+    padding: 20px;
+}
+.transection_dashboard .transdetail_chart table thead tr{
+    border-radius: 50px;
+    background: #9F9F9F33;
+}
+.transection_dashboard .transdetail_chart table tbody tr{
+    background: #9F9F9F33;
+    border: 1px solid #ACACAC;
+    text-align: center;
+}
+.transection_dashboard .transdetail_chart table button{
+   background: transparent;
+   border: none;
+}
+.transection_dashboard .transdetail_chart table .dropdown-toggle::after{
+  background-image: none;
+}
+
+
+/* transection Contract */
