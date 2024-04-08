@@ -391,7 +391,7 @@ Dashboard
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row d-none">
                         <div class="col-md-6 col-12">
                             <div class="">
                                 <div class="card-header text-center">
@@ -459,6 +459,94 @@ Dashboard
                                                 <div class="mb-1">
                                                     <label class="form-label" for="phone">Phone</label>
                                                     <input type="number" id="phone" class="form-control" name="phone" placeholder="Enter Mobile Number" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="ssn">SSN</label>
+                                                    <input type="number" id="ssn" class="form-control" name="ssn" placeholder="Enter your SSN" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="address">Address</label>
+                                                    <input type="text" id="address" class="form-control" name="contact" placeholder="Enter your Address" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="">
+                                <div class="card-header text-center">
+                                    <h4 class="card-title">Company Information</h4>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <form class="form form-vertical">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="first-name-vertical">Company</label>
+                                                    <input type="text" id="first-name-vertical" class="form-control" name="fname" placeholder="Enter company name" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="email-id-vertical">Name (POC)</label>
+                                                    <input type="text" id="email-id-vertical" class="form-control" name="email-id" placeholder="Enter POC" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="ssn">EIN</label>
+                                                    <input type="number" id="ssn" class="form-control" name="ssn" placeholder="Enter your EIN" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="sender">Location or store identifier</label>
+                                                    <input type="url" id="sender" class="form-control" name="contact" placeholder="location" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="address">Address</label>
+                                                    <input type="text" id="address" class="form-control" name="contact" placeholder="Enter your Address" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="">
+                                <div class="card-header text-center">
+                                    <h4 class="card-title">Purchase / Provider Information</h4>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <form class="form form-vertical">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="email-id-vertical">Email</label>
+                                                    <input type="email" id="email-id-vertical" class="form-control" name="email-id" placeholder="Enter your Email" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="phone">Phone</label>
+                                                    <input type="number" id="phone" class="form-control" name="phone" placeholder="Enter Mobile Number" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="first-name-vertical">Name (Other Person)</label>
+                                                    <input type="text" id="first-name-vertical" class="form-control" name="fname" placeholder="Enter your Name" />
                                                 </div>
                                             </div>
                                             <div class="col-12">
