@@ -66,12 +66,13 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
-.NextBtns_botsWrap{
+.NextBtns_botsWrap {
     position: absolute;
     bottom: 20px;
     right: 20px;
     left: 20px;
 }
+
 .NextBtns_bots {
     display: flex;
     justify-content: space-between;
@@ -119,9 +120,10 @@
     border: 1px solid rgba(66, 164, 255, 1);
 }
 
-.FormStepLine .FormStep{
+.FormStepLine .FormStep {
     position: relative;
 }
+
 .FormStepLine .FormStep::before {
     content: '';
     position: absolute;
@@ -131,27 +133,32 @@
     height: 75%;
     bottom: 0;
 }
-.FormStep .form-label{
+
+.FormStep .form-label {
     font-family: 'Raleway_Bold';
     font-size: 14px !important;
     font-weight: 600 !important;
     color: #000 !important;
 }
-.FormStep h2{
+
+.FormStep h2 {
     font-family: 'Raleway_Bold';
     color: #000;
     font-size: 33px;
 }
-.FormStep h4.card-title{
+
+.FormStep h4.card-title {
     font-family: 'Raleway_Bold';
     font-size: 22px;
     color: #000;
 }
-p.Step_Count{
+
+p.Step_Count {
     font-family: 'Raleway_Light';
     font-size: 18px;
     color: rgba(78, 78, 78, 1);
 }
+
 /* Recieved payment */
 @font-face {
     font-family: 'Gilroy';
@@ -162,6 +169,7 @@ p.Step_Count{
     font-family: 'Ralewayfont';
     src: url('../fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'Ralewayfontbold';
     src: url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
@@ -197,9 +205,11 @@ p.Step_Count{
     text-transform: uppercase;
     box-shadow: 0px 0px 33.65127944946289px 3.365128517150879px #3333331F;
 }
+
 .Sendertabs input[type="radio"] {
     display: none;
 }
+
 .Sendertabs.active {
     transform: scale(1.13);
 }
@@ -423,14 +433,14 @@ p.Step_Count{
 .step_formsrecieved .wizard .nav-tabs>li.active>a:focus,
 .DotsLeft .nav-tabs>li.active>a,
 .DotsLeft .nav-tabs>li.active>a:hover,
-.DotsLeft .nav-tabs>li.active>a:focus{
+.DotsLeft .nav-tabs>li.active>a:focus {
     color: #555555;
     cursor: default;
     border: 0;
     border-bottom-color: transparent;
 }
 
-.step_formsrecieved span.round-tab{
+.step_formsrecieved span.round-tab {
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -446,6 +456,7 @@ p.Step_Count{
     font-weight: 500;
     border: 1px solid #ddd;
 }
+
 .DotsLeft span.round-tab {
     width: 8px;
     height: 8px;
@@ -465,11 +476,13 @@ p.Step_Count{
 .step_formsrecieved span.round-tab i {
     color: #555555;
 }
-.DotsLeft .nav-tabs{
+
+.DotsLeft .nav-tabs {
     width: 70px;
 }
+
 .step_formsrecieved .wizard li.active span.round-tab,
-.DotsLeft .nav-tabs li.active  span.round-tab{
+.DotsLeft .nav-tabs li.active span.round-tab {
     background: #42A4FF;
     color: #fff;
     border-color: #42A4FF;
@@ -552,6 +565,7 @@ p.Step_Count{
     font-size: 15px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
+
 .tabs_sectionsender .step2 .schedule_dates input {
     border: 1px solid #E1E1E1;
     padding: 12px 20px 12px 42px;
@@ -594,18 +608,22 @@ p.Step_Count{
 
 
 }
-.tabs_sectionsender .step2 .schedule_dates  .select_dateinput {
+
+.tabs_sectionsender .step2 .schedule_dates .select_dateinput {
     position: relative;
 }
-.tabs_sectionsender .step2 .schedule_dates  .select_dateinput img {
-   position: absolute;
-   top: 14px;
-   left: 13px;
+
+.tabs_sectionsender .step2 .schedule_dates .select_dateinput img {
+    position: absolute;
+    top: 14px;
+    left: 13px;
 }
-.tabs_sectionsender .step2 .schedule_dates  .datepickerfields {
-   gap:20px;
-   flex-wrap: wrap;
+
+.tabs_sectionsender .step2 .schedule_dates .datepickerfields {
+    gap: 20px;
+    flex-wrap: wrap;
 }
+
 .tabs_sectionsender .step2 .Intermediary input {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
@@ -616,11 +634,13 @@ p.Step_Count{
     font-size: 15px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
+
 .tabs_sectionsender .step2 .Intermediary input::placeholder {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 }
+
 /*  */
 .tabs_sectionsender .step3 label {
     display: block;
@@ -640,6 +660,7 @@ p.Step_Count{
     font-size: 15px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
+
 .tabs_sectionsender .step3 .schedule_dates input {
     border: 1px solid #E1E1E1;
     padding: 12px 20px 12px 42px;
@@ -682,18 +703,22 @@ p.Step_Count{
 
 
 }
-.tabs_sectionsender .step3 .schedule_dates  .select_dateinput {
+
+.tabs_sectionsender .step3 .schedule_dates .select_dateinput {
     position: relative;
 }
-.tabs_sectionsender .step3 .schedule_dates  .select_dateinput img {
-   position: absolute;
-   top: 14px;
-   left: 13px;
+
+.tabs_sectionsender .step3 .schedule_dates .select_dateinput img {
+    position: absolute;
+    top: 14px;
+    left: 13px;
 }
-.tabs_sectionsender .step3 .schedule_dates  .datepickerfields {
-   gap:20px;
-   flex-wrap: wrap;
+
+.tabs_sectionsender .step3 .schedule_dates .datepickerfields {
+    gap: 20px;
+    flex-wrap: wrap;
 }
+
 .tabs_sectionsender .step3 .Intermediary input {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
@@ -704,11 +729,13 @@ p.Step_Count{
     font-size: 15px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
+
 .tabs_sectionsender .step3 .Intermediary input::placeholder {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 }
+
 /*  */
 /*  */
 .tabs_sectionsender .step4 label {
@@ -729,6 +756,7 @@ p.Step_Count{
     font-size: 15px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
+
 .tabs_sectionsender .step4 .schedule_dates input {
     border: 1px solid #E1E1E1;
     padding: 12px 20px 12px 42px;
@@ -771,18 +799,22 @@ p.Step_Count{
 
 
 }
-.tabs_sectionsender .step4 .schedule_dates  .select_dateinput {
+
+.tabs_sectionsender .step4 .schedule_dates .select_dateinput {
     position: relative;
 }
-.tabs_sectionsender .step4 .schedule_dates  .select_dateinput img {
-   position: absolute;
-   top: 14px;
-   left: 13px;
+
+.tabs_sectionsender .step4 .schedule_dates .select_dateinput img {
+    position: absolute;
+    top: 14px;
+    left: 13px;
 }
-.tabs_sectionsender .step4 .schedule_dates  .datepickerfields {
-   gap:20px;
-   flex-wrap: wrap;
+
+.tabs_sectionsender .step4 .schedule_dates .datepickerfields {
+    gap: 20px;
+    flex-wrap: wrap;
 }
+
 .tabs_sectionsender .step4 .Intermediary input {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
@@ -793,56 +825,65 @@ p.Step_Count{
     font-size: 15px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
+
 .tabs_sectionsender .step4 .Intermediary input::placeholder {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 }
+
 .tabs_sectionsender .step4 .add_userbtn button {
     background: transparent;
     border: none;
 
 }
-.tabs_sectionsender .step4 .stepform_2 span{
+
+.tabs_sectionsender .step4 .stepform_2 span {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 
 }
-.tabs_sectionsender .step4 .stepform_2 span{
+
+.tabs_sectionsender .step4 .stepform_2 span {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 
 }
-.tabs_sectionsender .step4 .stepform_2 .data{
-    gap: 25%;
+
+.tabs_sectionsender .step4 .stepform_2 .data {
+    gap: 33%;
     flex-wrap: wrap;
 
 }
+
 /*  */
 /* Sender payment */
 /* contract Summary */
-.contractsummary  .MultiForm_Wrap label{
+.contractsummary .MultiForm_Wrap label {
     display: block;
     font-family: 'Ralewayfont';
     font-size: 16px;
     line-height: 45px;
     color: #000000;
 }
-.contractsummary  .MultiForm_Wrap .summary-wrap{
-   float: right;
+
+.contractsummary .MultiForm_Wrap .summary-wrap {
+    float: right;
 }
-.contractsummary  .MultiForm_Wrap .summary-wrap .date-wrap{
-width: fit-content;
-background: #fff;
-border: 0.9px solid #E1E1E1;
-box-shadow: 0px 0px 16.22px -4.5px #0000001A;
-border-radius: 10px;
-margin-bottom: 20px;
+
+.contractsummary .MultiForm_Wrap .summary-wrap .date-wrap {
+    width: fit-content;
+    background: #fff;
+    border: 0.9px solid #E1E1E1;
+    box-shadow: 0px 0px 16.22px -4.5px #0000001A;
+    border-radius: 10px;
+    margin-bottom: 20px;
 
 }
-.contractsummary  .MultiForm_Wrap .summary-wrap .date-wrap p{
+
+.contractsummary .MultiForm_Wrap .summary-wrap .date-wrap p {
     font-family: 'Ralewayfont';
     font-size: 15px;
     color: #00000099;
@@ -850,15 +891,17 @@ margin-bottom: 20px;
     padding: 13px 90px 12px 28px;
     margin: 0px;
 }
-.contractsummary  .MultiForm_Wrap .head-wrap h2{
+
+.contractsummary .MultiForm_Wrap .head-wrap h2 {
     font-family: 'Ralewayfontbold';
     font-size: 22px;
     color: #101010;
     margin-top: -50px;
     text-transform: uppercase;
 }
-.contractsummary  .MultiForm_Wrap .sender-wrap .sender-title p,
-.contractsummary  .MultiForm_Wrap .reciver-wrap .Reciever-title p{
+
+.contractsummary .MultiForm_Wrap .sender-wrap .sender-title p,
+.contractsummary .MultiForm_Wrap .reciver-wrap .Reciever-title p {
     font-family: 'Ralewayfont';
     font-size: 20px;
     color: #578ED5;
@@ -866,8 +909,9 @@ margin-bottom: 20px;
     text-transform: uppercase;
     font-style: italic;
 }
-.contractsummary  .MultiForm_Wrap .sender-wrap input,
-.contractsummary  .MultiForm_Wrap .reciver-wrap input{
+
+.contractsummary .MultiForm_Wrap .sender-wrap input,
+.contractsummary .MultiForm_Wrap .reciver-wrap input {
     border: 1px solid #E1E1E1;
     padding: 12px 68px 12px 29px;
     border-radius: 10px;
@@ -876,21 +920,239 @@ margin-bottom: 20px;
     font-size: 15px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
-.contractsummary .col6row{
-    max-width: 70%;
-    margin: auto;
-}
-.contractsummary .col6_col{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.contractsummary  .MultiForm_Wrap .Agrement p{
+
+.contractsummary .MultiForm_Wrap .Agrement p {
     font-family: 'Ralewayfont';
     font-size: 20px;
     color: #578ED5;
-    margin-top: 50px;
     text-transform: uppercase;
     font-style: italic;
 }
+
+.step_formsrecieved .Next_btnswrap {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: -19px;
+}
+
+.contractsummary .Next_btnswrap {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: -19px;
+}
+
+.contract_table table {
+    width: 100%;
+}
+
+.contractsummary .Pyment_terms p {
+    font-family: 'Ralewayfont';
+    font-size: 20px;
+    color: #578ED5;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contractsummary .Pyment_terms span {
+    font-family: 'Ralewayfontbold';
+    font-size: 15px;
+    color: #101010;
+}
+
+.contractsummary .Pyment_terms {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.payment_schedule {
+    margin-bottom: 15%;
+}
+
+.payment_schedule table {
+    width: 100%;
+}
+
+/* otp */
+.otp-input-fields {
+    margin: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.otp-input-fields input {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 0.5px solid #00C2FF;
+    text-align: center;
+    outline: none;
+    font-size: 10px;
+}
+
+.otp-input-fields input:focus {
+    border-width: 2px;
+    border-color: darken(#00C2FF, 5%);
+}
+
+.contractsummary .pin_code table {
+    width: 100%;
+}
+
+.contractsummary .pin_code .sendotp_btn {
+    padding: 10px;
+    border-radius: 8px;
+    background: #52B6FF;
+    font-family: 'Ralewayfont';
+    font-size: 12px;
+    color: #FFFFFF;
+    border: none;
+    width: 75%;
+}
+
+.pin_code .code_transect {
+    font-family: 'Ralewayfont';
+    font-size: 20px;
+    color: #578ED5;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contract_table .custom_wrap {
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.payment_schedule .custom_wrap {
+    font-family: 'Ralewayfont';
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.contract_table .table_head span {
+    display: block;
+    font-family: 'Ralewayfontbold';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    border-radius: 6px;
+    border: 1px solid #000000B2;
+    background: #FFFFFF;
+    color: #000;
+    padding: 10px 0px 10px 30px;
+    border-width: 0.44px;
+    width: 100%;
+    transform: scale(1.04);
+}
+.payment_schedule .table_head span {
+    display: block;
+    font-family: 'Ralewayfontbold';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #000000B2;
+    border-right: none;
+    background: #FFFFFF;
+    color: #000;
+    padding: 10px 0px 10px 30px;
+    border-width: 0.44px;
+    width: 100%;
+    transform: scale(1.04);
+}
+
+.contract_table .tablebr_data{
+    text-align: center;
+    font-family: 'Ralewayfont2';
+    color: #000000;
+    font-size: 15px;
+    border: 0.88px solid #FFFFFF;
+    padding: 10px 0px 10px 0px;
+
+}
+.pin_code .tablebr_data{
+    text-align: center;
+    font-family: 'Ralewayfont2';
+    color: #000000;
+    font-size: 15px;
+    border: 0.88px solid #FFFFFF;
+    padding: 10px 0px 10px 0px;
+
+}
+.payment_schedule .tablebr_data {
+    text-align: center;
+    font-family: 'Ralewayfont2';
+    color: #000000;
+    font-size: 15px;
+    border: 0.88px solid #FFFFFF;
+    padding: 10px 0px 10px 0px;
+
+}
+.payment_schedule .bdr {
+    border-top: none;
+    border-bottom: none;
+
+}
+.payment_schedule .bdr2 {
+    border-top: none;
+
+}
+.payment_schedule .bdr3 {
+    border-right: none;
+
+}
+.payment_schedule .bdrleft {
+    border-left: none;
+
+}
+.contract_table .special,
+.payment_schedule .special {
+    text-align: center;
+    font-family: 'Ralewayfontbold';
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+
+}
+.payment_schedule .table_head2 span {
+    display: block;
+    font-family: 'Ralewayfontbold';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    border-radius: 0px 6px 6px 0px;
+    border: 1px  solid #000000B2;
+    border-left: none;
+    background: #FFFFFF;
+    color: #000;
+    padding: 10px 0px 10px 30px;
+    border-width: 0.44px;
+    width: 100%;
+    transform: scale(1.04);
+    text-align: center;
+    transform-origin: left center;
+}
+@media (max-width: 992px) {
+    .contractsummary .contract_table,
+    .contractsummary .payment_schedule,
+    .contractsummary .pin_code {
+        overflow: auto;
+    }
+}
+.contractsummary .center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30%;
+
+}
+/* otp */
 /* contract Summary */

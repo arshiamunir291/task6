@@ -129,30 +129,22 @@ nav {
                     <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
                 </div>
             </div>
-            <div class="Refundable">
-                <label for="">Pay on Scheduled Completion Date</label>
-                <div class="select_dateinput2">
-                    <input type="number" placeholder="45, 000" class="mb-1">
-                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
-                </div>
-            </div>
             <div class="schedule_dates">
                 <div class="d-flex datepickerfields">
                     <div class="mb-1">
-                        <label for="">Departure Date</label>
-                        <div class="select_dateinput">
-                            <input class="date" type="text" placeholder="--/--/--">
-                            <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                        <label for="">Pay on Scheduled Completion Date</label>
+                        <div class="d-flex gap-3">
+                            <div class="select_dateinput">
+                                <input class="date" type="text" placeholder="--/--/--">
+                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                            </div>
+                            <div class="select_dateinput">
+                                <input class="date" type="text" placeholder="--/--/--" id="datepicker">
+                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                <div class="calendar"></div>
+                            </div>
                         </div>
 
-                    </div>
-                    <div class="mb-1">
-                        <label for="">Arrival Date</label>
-                        <div class="select_dateinput">
-                            <input class="date" type="text" placeholder="--/--/--" id="datepicker">
-                            <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
-                            <div class="calendar"></div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -192,29 +184,20 @@ nav {
                     <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
                 </div>
             </div>
-            <div class="Refundable">
-                <label for="">Pay on Scheduled Completion Date</label>
-                <div class="select_dateinput2">
-                    <input type="number" placeholder="45, 000" class="mb-1">
-                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
-                </div>
-            </div>
             <div class="schedule_dates">
                 <div class="d-flex datepickerfields">
                     <div class="mb-1">
-                        <label for="">Departure Date</label>
-                        <div class="select_dateinput">
-                            <input class="date" type="text" placeholder="--/--/--">
-                            <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
-                        </div>
-
-                    </div>
-                    <div class="mb-1">
-                        <label for="">Arrival Date</label>
-                        <div class="select_dateinput">
-                            <input class="date" type="text" placeholder="--/--/--" id="datepicker">
-                            <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
-                            <div class="calendar"></div>
+                        <label for="">Pay on Scheduled Receipt Date</label>
+                        <div class="d-flex gap-3">
+                            <div class="select_dateinput">
+                                <input class="date" type="text" placeholder="--/--/--">
+                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                            </div>
+                            <div class="select_dateinput">
+                                <input class="date" type="text" placeholder="--/--/--" id="datepicker">
+                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                <div class="calendar"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -306,30 +289,22 @@ nav {
                             <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
                         </div>
                     </div>
-                    <div class="Refundable">
-                        <label for="">Pay on Scheduled Completion Date</label>
-                        <div class="select_dateinput2">
-                            <input type="number" placeholder="45, 000" class="mb-1">
-                            <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
-                        </div>
-                    </div>
                     <div class="schedule_dates">
                         <div class="d-flex datepickerfields">
                             <div class="mb-1">
-                                <label for="">Departure Date</label>
-                                <div class="select_dateinput">
-                                    <input class="date" type="text" placeholder="--/--/--">
-                                    <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                <label for="">Progressive Payment Schedule</label>
+                                <div class="d-flex gap-3">
+                                    <div class="select_dateinput">
+                                        <input class="date" type="text" placeholder="--/--/--">
+                                        <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                    </div>
+                                    <div class="select_dateinput">
+                                        <input class="date" type="text" placeholder="--/--/--" id="datepicker">
+                                        <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                        <div class="calendar"></div>
+                                    </div>
                                 </div>
 
-                            </div>
-                            <div class="mb-1">
-                                <label for="">Arrival Date</label>
-                                <div class="select_dateinput">
-                                    <input class="date" type="text" placeholder="--/--/--" id="datepicker">
-                                    <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
-                                    <div class="calendar"></div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -381,7 +356,7 @@ nav {
     </div>
 </div>
 <div class="row">
-    <div class="NextBtns_bots justify-content-end">
+    <div class="NextBtns_bots justify-content-end Next_btnswrap">
         <div class="DotsLeft d-none">
             <span class="active"></span>
             <span></span>
