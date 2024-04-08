@@ -16,3 +16,6 @@ Route::get('/Sender', function () {
 Route::get('/Contract', function () {
     return view('dashboard.layouts.Contractsummary');
 });
+Route::get('/transection', function () {
+    return view('dashboard.transection_contract.transection');
+});
