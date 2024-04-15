@@ -1067,6 +1067,7 @@ p.Step_Count {
     width: 100%;
     transform: scale(1.04);
 }
+
 .payment_schedule .table_head span {
     display: block;
     font-family: 'Ralewayfontbold';
@@ -1084,7 +1085,7 @@ p.Step_Count {
     transform: scale(1.04);
 }
 
-.contract_table .tablebr_data{
+.contract_table .tablebr_data {
     text-align: center;
     font-family: 'Ralewayfont2';
     color: #000000;
@@ -1093,7 +1094,8 @@ p.Step_Count {
     padding: 10px 0px 10px 0px;
 
 }
-.pin_code .tablebr_data{
+
+.pin_code .tablebr_data {
     text-align: center;
     font-family: 'Ralewayfont2';
     color: #000000;
@@ -1102,6 +1104,7 @@ p.Step_Count {
     padding: 10px 0px 10px 0px;
 
 }
+
 .payment_schedule .tablebr_data {
     text-align: center;
     font-family: 'Ralewayfont2';
@@ -1111,23 +1114,28 @@ p.Step_Count {
     padding: 10px 0px 10px 0px;
 
 }
+
 .payment_schedule .bdr {
     border-top: none;
     border-bottom: none;
 
 }
+
 .payment_schedule .bdr2 {
     border-top: none;
 
 }
+
 .payment_schedule .bdr3 {
     border-right: none;
 
 }
+
 .payment_schedule .bdrleft {
     border-left: none;
 
 }
+
 .contract_table .special,
 .payment_schedule .special {
     text-align: center;
@@ -1137,6 +1145,7 @@ p.Step_Count {
     padding: 10px 0px 10px 0px;
 
 }
+
 .payment_schedule .table_head2 span {
     display: block;
     font-family: 'Ralewayfontbold';
@@ -1144,7 +1153,7 @@ p.Step_Count {
     font-weight: 600;
     line-height: 17px;
     border-radius: 0px 6px 6px 0px;
-    border: 1px  solid #000000B2;
+    border: 1px solid #000000B2;
     border-left: none;
     background: #FFFFFF;
     color: #000;
@@ -1155,32 +1164,39 @@ p.Step_Count {
     text-align: center;
     transform-origin: left center;
 }
+
 @media (max-width: 992px) {
+
     .contractsummary .contract_table,
     .contractsummary .payment_schedule,
     .contractsummary .pin_code {
         overflow: auto;
     }
 }
-.contractsummary .center{
+
+.contractsummary .center {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30%;
 
 }
+
 /* otp */
 /* contract Summary */
 /* transection Contract */
-.transection_dashboard  .Step_First{
+.transection_dashboard .Step_First {
     background: #FBFFCEC4;
     border: 1.44px solid #898989
 }
+
 .transection_dashboard .Step_First .range button,
-.transection_dashboard .Step_First .status button{
+.transection_dashboard .Step_First .status button {
     background: #FFFFFF;
+    border-radius: 10px;
 }
-.transection_dashboard .Step_First .range .dropdown-toggle::after ,
+
+.transection_dashboard .Step_First .range .dropdown-toggle::after,
 .transection_dashboard .Step_First .status .dropdown-toggle::after {
     background-image: url("../images/recieved/statusdropdown.png");
     background-size: contain;
@@ -1188,44 +1204,494 @@ p.Step_Count {
     width: 15px;
 
 }
+
 .transection_dashboard .Step_First .filters button {
     background-color: #0C99FF !important;
     box-shadow: 0px 0px 10.35px 0px #00000014;
     border: none !important;
+    border-radius: 10px;
 }
-.transection_dashboard .Step_First .filters button:hover{
+
+.transection_dashboard .Step_First .filters button:hover {
     box-shadow: 0 8px 25px -8px #0C99FF !important;
 
 }
-.transection_dashboard .transdetail_chart table{
+
+.transection_dashboard .transdetail_chart table {
     width: 100%;
     margin-top: 30px;
-    border-collapse:separate;
-    border-spacing:0 15px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
 }
-.transection_dashboard .transdetail_chart table thead th{
+
+.transection_dashboard .transdetail_chart table thead th {
     padding: 20px;
     text-align: center;
 }
-.transection_dashboard .transdetail_chart table td{
+
+.transection_dashboard .transdetail_chart table td {
     padding: 20px;
 }
-.transection_dashboard .transdetail_chart table thead tr{
+
+.transection_dashboard .transdetail_chart table thead tr {
     border-radius: 50px;
     background: #9F9F9F33;
 }
-.transection_dashboard .transdetail_chart table tbody tr{
+
+.transection_dashboard .transdetail_chart table tbody tr {
     background: #9F9F9F33;
     border: 1px solid #ACACAC;
     text-align: center;
 }
-.transection_dashboard .transdetail_chart table button{
-   background: transparent;
-   border: none;
+
+.transection_dashboard .transdetail_chart table button {
+    background: transparent;
+    border: none;
 }
-.transection_dashboard .transdetail_chart table .dropdown-toggle::after{
-  background-image: none;
+
+.transection_dashboard .transdetail_chart table .dropdown-toggle::after {
+    background-image: none;
+}
+
+.transection_dashboard .transdetail_chart table img {
+    width: 20px;
+}
+
+.transection_dashboard .transdetail_chart table .paid {
+    color: #00FF0A;
+}
+
+.transection_dashboard .transdetail_chart table .cancell {
+    color: #FF0000;
+}
+
+@font-face {
+    font-family: 'clash displaybold';
+    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Bold.eot') format('truetype');
+}
+
+@font-face {
+    font-family: 'clash displayregular';
+    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Light.eot') format('truetype');
+}
+
+@font-face {
+    font-family: 'clash displaymedium';
+    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Medium.eot') format('truetype');
+}
+
+@font-face {
+    font-family: 'clash displayextrabold';
+    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Bold.ttf') format('truetype');
+}
+
+.transection_dashboard .transdetail_chart table thead th {
+    font-family: 'clash displaybold';
+    line-height: 16px;
+    color: #2B2B36;
+}
+
+.transection_dashboard .transdetail_chart table tbody td {
+    font-weight: 600;
+    font-family: 'clash displaybold';
+    font-size: 16px;
+    color: #2B2B36;
+
+}
+
+.transection_dashboard .transdetail_chart {
+    overflow: auto;
+
+}
+
+.transection_dashboard .Step_First .range,
+.transection_dashboard .Step_First .status {
+    font-family: 'clash displaybold';
+    font-size: 12px;
+    color: #161616;
+}
+
+.transection_dashboard .Step_First .range .dropdown-menu a,
+.transection_dashboard .Step_First .status .dropdown-menu a {
+    font-family: "Alexandria", sans-serif;
+    font-size: 12px;
+    line-height: 8px;
+    border-radius: 10px;
+}
+
+.transection_dashboard .Step_First .filters button {
+    font-family: 'Raleway_Bold';
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.transection_dashboard .transdetail_chart table tbody .drop_set::before {
+    content: "";
+    position: absolute;
+    right: 33px;
+    top: -25px;
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+    background-image: url("../images/recieved/Vector.png");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.transection_dashboard .transdetail_chart table tbody .drop_set {
+    right: 14px;
+    top: 56px;
+    border-radius: 10px;
+}
+
+.transection_dashboard .transdetail_chart table tbody .drop_set a {
+    font-family: "Alexandria", sans-serif;
+    font-size: 12px;
+    line-height: 8px;
 }
 
 
 /* transection Contract */
+/* Earning page */
+.transection_dashboard .Step_First .Balance {
+    font-family: 'clash displaybold';
+    font-size: 16px;
+    color: #4176FF;
+}
+
+.transection_dashboard .Step_First .Balance span {
+    font-family: 'clash displayextrabold';
+    font-size: 16px;
+    color: #4176FF;
+}
+
+.transection_dashboard .Earning_chart table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 30px;
+    border-spacing: 0 20px;
+}
+
+.transection_dashboard .Earning_chart {
+    overflow: auto;
+}
+
+.transection_dashboard .Earning_chart table thead tr th {
+    font-family: 'Ralewayfont2';
+    color: #3D3D3D;
+    font-size: 16px;
+}
+
+.transection_dashboard .Earning_chart table tbody td {
+    font-family: 'clash displayregular';
+    color: #1B1B1B;
+    font-size: 16px;
+}
+
+.transection_dashboard .Earning_chart table tbody .price {
+    font-family: 'clash displayextrabold';
+    color: #44553B;
+    font-size: 16px;
+}
+
+.transection_dashboard .Earning_chart table tbody #btn {
+    cursor: pointer;
+    color: #414141;
+    margin-top: 50px;
+
+}
+
+.transection_dashboard .Earning_chart table tbody .claering_status button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    background: linear-gradient(to right, #00CB39 50%, #D6D6D6 50%);
+
+}
+
+.transection_dashboard .earningcards .Earnedcard {
+    background: #F4F2A6;
+    box-shadow: 0px 0px 11.52px 0px #0000001A;
+    border-radius: 20px;
+    padding: 3rem 3rem 2rem;
+}
+
+.transection_dashboard .earningcards .Earnedcard .head span {
+    font-family: 'Ralewayfont2';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #44553B;
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+
+.transection_dashboard .earningcards .Earnedcard .amount span {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #2E2E2E;
+    display: block;
+}
+
+/* Earning page */
+/* Transparent page */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.transection_dashboard .visitorcards .visited {
+    background: #F4F2A6;
+    box-shadow: 0px 0px 11.52px 0px #0000001A;
+    border-radius: 20px;
+    padding: 3rem 2rem 2rem;
+    border: 1px solid #898989;
+    height: 100%;
+}
+
+.transection_dashboard .visitorcards .visited .price span {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30.48px;
+    letter-spacing: 0.01em;
+    color: #2B2D38;
+
+}
+
+.transection_dashboard .visitorcards .visited .price2 .sp1 {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #2B2D38;
+
+}
+
+.transection_dashboard .visitorcards .visited .price2 .sp2 {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #2B2D38;
+
+}
+
+.transection_dashboard .visitorcards .visited .Total_visit span {
+    font-family: 'Ralewayfont2';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #797979;
+    display: block;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.transection_dashboard .visitorcards .visited .monthlyresults {
+    align-items: center;
+}
+
+.transection_dashboard .visitorcards .visited .monthlyresults img {
+    width: 20px;
+}
+
+.transection_dashboard .visitorcards .visited .monthlyresults p {
+    font-family: 'Ralewayfont2';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #060606;
+    display: block;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.transection_dashboard .Step_First .transdetail_chart h1 {
+    color: #2A2A2A;
+    font-family: 'clash displayextrabold';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+}
+
+.transection_dashboard .Step_First .progress .bg-success {
+    background-color: #80DF53 !important;
+}
+
+.transection_dashboard .Step_First .progress {
+    background-color: #2B2B36 !important;
+    height: 5px;
+    margin-top: 14px;
+}
+
+.transection_dashboard .Step_First .prgress_value span {
+    color: #2B2B36;
+    font-family: 'clash displayregular';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+
+
+/* Transparent page */
+/* Profile page */
+.Profile_section .Profile h1 {
+    text-transform: uppercase;
+    font-family: 'clash displayextrabold';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
+
+.Profile_section .Step_First {
+    background: #FBFFCEC4;
+    border: 1.44px solid #898989
+}
+
+.Profile_section .NextBtns_bots {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.Profile_section .Step_First .profile_pic {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Profile_section .Step_First .profile_pic .user {
+    position: relative;
+    border-radius: 50%;
+    border: 4.25px solid #26B8934D
+}
+
+.Profile_section .Step_First .profile_pic .user .profilechange_icon {
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+    cursor: pointer;
+}
+
+.Profile_section .Step_First .profile_pic .face_verify,
+.Profile_section .Step_First .profile_pic .id_verify {
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background: #58E1FF;
+    border: none;
+    font-family: 'clash displaybold';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.Profile_section .user_detail label {
+    display: block;
+    color: #083A50;
+    font-family: 'clash displayregular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin:5px 0px 5px 0px;
+}
+
+.Profile_section .user_detail .credencials input {
+    border: 1px solid #26B893;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.Profile_section .user_detail .name_wrap input {
+    border: 1px solid #26B893;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.Profile_section .user_detail input::placeholder {
+    color: #083A50;
+    font-family: 'clash displayregular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.Profile_section .user_detail input {
+    color: #083A50;
+    font-family: 'clash displayregular';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    outline: none;
+}
+
+.Profile_section .user_detail select {
+    border: 1px solid #26B893;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    color: #083A50;
+    font-family: 'clash displayregular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.Profile_section .user_detail select option {
+    color: #083A50;
+    font-family: 'clash displayregular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.Profile_section .user_detail .inner_wrap {
+    position: relative;
+}
+
+.Profile_section .user_detail .inner_wrap img {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.Profile_section .tabs_sectionsender .modal .modal-content {
+    box-shadow: 0px 0px 50px 0px #0000001A;
+    background: #DDE07C;
+
+}
+
+.Profile_section .tabs_sectionsender .modal .modal-footer {
+    border: none;
+
+}
+
+.Profile_section .tabs_sectionsender .modal .face_verification p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
+.Profile_section .tabs_sectionsender .modal  .facedetect{
+   margin:50px 0px 50px 0px;
+
+}
+.Profile_section .tabs_sectionsender .modal  .modal-body{
+  padding: 30px;
+
+}
+
+/* Profile page */
