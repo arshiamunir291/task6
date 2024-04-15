@@ -109,7 +109,8 @@
     font-family: 'Raleway_Light';
 }
 
-.NextBtns_bots .InnerBtns .startedBtn {
+.NextBtns_bots .InnerBtns .startedBtn,
+.UploadBtnForm{
     background: rgba(66, 164, 255, 1);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
     padding: 12px 30px 12px 30px;
@@ -119,7 +120,9 @@
     font-family: 'Raleway_Light';
     border: 1px solid rgba(66, 164, 255, 1);
 }
-
+.UploadBtnForm{
+    border-radius: 30px;
+}
 .FormStepLine .FormStep {
     position: relative;
 }
@@ -413,10 +416,11 @@ p.Step_Count {
 .step_formsrecieved .wizard>div.wizard-inner {
     position: relative;
     margin-bottom: 50px;
-    text-align: center;
+    margin-left: 18px;
+    /* text-align: center; */
 }
 
-.step_formsrecieved .connecting-line {
+/* .step_formsrecieved .connecting-line {
     height: 2px;
     background: #FFFFFF;
     position: absolute;
@@ -426,7 +430,7 @@ p.Step_Count {
     right: 0;
     top: 15px;
     z-index: 1;
-}
+} */
 
 .step_formsrecieved .wizard .nav-tabs>li.active>a,
 .step_formsrecieved .wizard .nav-tabs>li.active>a:hover,
@@ -495,10 +499,21 @@ p.Step_Count {
 .step_formsrecieved .wizard .nav-tabs>li,
 .DotsLeft .nav-tabs>li {
     width: 25%;
+    position: relative;
 }
-
+.step_formsrecieved .wizard .nav-tabs>li::before {
+    content: '';
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 14px;
+    height: 1px;
+}
+.step_formsrecieved .wizard .nav-tabs>li:last-child::before{
+    width: 0%;
+}
 .step_formsrecieved .wizard li:after {
-    content: " ";
+    content: "";
     position: absolute;
     left: 46%;
     opacity: 0;
