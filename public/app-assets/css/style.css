@@ -235,14 +235,14 @@ p.Step_Count {
 
 }
 
-.oter_page .Purchase_form label {
+.other_page .Purchase_form label {
     display: block;
     font-family: 'Ralewayfont';
     font-size: 16px;
     line-height: 45px;
 }
 
-.oter_page .Purchase_form input.account_nmbr {
+.other_page .Purchase_form input.account_nmbr {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
@@ -254,14 +254,14 @@ p.Step_Count {
 
 }
 
-.oter_page .Purchase_form input::placeholder {
+.other_page .Purchase_form input::placeholder {
     font-family: 'Ralewayfont';
     font-size: 15px;
     opacity: 60%;
 
 }
 
-.oter_page .Purchase_form textarea {
+.other_page .Purchase_form textarea {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
@@ -275,14 +275,14 @@ p.Step_Count {
 
 }
 
-.oter_page .Purchase_form textarea::placeholder {
+.other_page .Purchase_form textarea::placeholder {
     font-family: 'Ralewayfont';
     font-size: 15px;
     opacity: 60%;
 
 }
 
-.oter_page .schedule_dates input {
+.other_page .schedule_dates input {
     border: 1px solid #E1E1E1;
     border-radius: 10px;
     outline: none;
@@ -290,46 +290,46 @@ p.Step_Count {
     font-size: 15px;
     Height: 42px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
-    padding-left: 50px;
+    padding-left: 36px;
 }
 
-.oter_page .schedule_dates .d-flex {
+.other_page .schedule_dates .d-flex {
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.oter_page .schedule_dates input::placeholder {
+.other_page .schedule_dates input::placeholder {
     font-family: 'Ralewayfont';
     font-size: 15px;
     opacity: 60%;
 }
 
-.oter_page .schedule_dates .select_dateinput {
+.other_page .schedule_dates .select_dateinput {
     position: relative;
 }
 
-.oter_page .schedule_dates .select_dateinput img {
+.other_page .schedule_dates .select_dateinput img {
     position: absolute;
     top: 10px;
     left: 10px;
 }
 
-.oter_page .schedule_dates .select_dateinput2 {
+.other_page .schedule_dates .select_dateinput2 {
     position: relative;
 }
 
-.oter_page .schedule_dates .select_dateinput2 img {
+.other_page .schedule_dates .select_dateinput2 img {
     position: absolute;
     top: 15px;
     left: 19px;
 }
 
-.oter_page .schedule_dates .select_dateinput2 input {
+.other_page .schedule_dates .select_dateinput2 input {
     padding-left: 35px;
     width: 100%;
 }
 
-.oter_page .form_submit input {
+.other_page .form_submit input {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
@@ -340,20 +340,20 @@ p.Step_Count {
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
 
-.oter_page .form_submit input::placeholder {
+.other_page .form_submit input::placeholder {
     font-family: 'Ralewayfont';
     font-size: 15px;
     opacity: 60%;
 }
 
-.oter_page .form_submit label {
+.other_page .form_submit label {
     display: block;
     font-family: 'Ralewayfont';
     font-size: 16px;
     line-height: 45px;
 }
 
-.oter_page .form_submit .paymewnt_iccue button {
+.other_page .form_submit .paymewnt_iccue button {
     font-family: 'Ralewayfont';
     font-size: 15px;
     padding: 7px 13px 7px 13px;
@@ -365,7 +365,7 @@ p.Step_Count {
 
 }
 
-.oter_page .form_submit .paymewnt_iccue {
+.other_page .form_submit .paymewnt_iccue {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -373,16 +373,16 @@ p.Step_Count {
 
 }
 
-.oter_page .form_submit .paymewnt_iccue button img {
+.other_page .form_submit .paymewnt_iccue button img {
     margin-right: 10px;
 
 }
 
-.oter_page .form_submit .paymewnt_iccue button span {
+.other_page .form_submit .paymewnt_iccue button span {
     opacity: 60%;
 }
 
-.oter_page .form_submit .upload button {
+.other_page .form_submit .upload button {
     padding: 11px 45px 11px 46px;
     border-radius: 26px;
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
