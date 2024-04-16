@@ -165,7 +165,7 @@ Dashboard
             <div class="InnerForm_Wrap purchase">
                 <div class="Step_First">
                     <div class="row">
-                            <div class="col-md-6">
+                        <div class="col-md-6">
                             <form action="" autocomplete="off">
                                 <h2>OTHER PURCHASES PAGE</h2>
                                 <div class="Purchase_form">
@@ -247,7 +247,8 @@ Dashboard
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                            </form>
+                        </div>
                         <div class="col-md-6">
                         </div>
                         <div class="NextBtns_bots justify-content-end">

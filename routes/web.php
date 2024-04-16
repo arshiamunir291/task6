@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [DashHomeController::class, 'index'])->name('dashboard.home');
-Route::get('/recieved', [DashHomeController::class, 'send'])->name('recieved');
+Route::get('/sender_form', [DashHomeController::class, 'send'])->name('sender_form');
 Route::get('/Purchase', function () {
     return view('dashboard.layouts.Purchase');
 });

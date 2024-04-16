@@ -20,7 +20,7 @@ class DashHomeController extends Controller
      */
     public function send()
     {
-        return view('dashboard.layouts.Recieved');
+        return view('dashboard.sender.index');
     }
 
     /**

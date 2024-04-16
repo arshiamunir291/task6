@@ -69,8 +69,8 @@
 .NextBtns_botsWrap {
     position: absolute;
     bottom: 20px;
-    right: 20px;
-    left: 20px;
+    right: 0px;
+    left: 0px;
 }
 
 .NextBtns_bots {
@@ -133,7 +133,7 @@
     left: calc(100% - 50%);
     background-color: rgba(180, 180, 180, 1);
     width: 0.5px;
-    height: 75%;
+    height: 90%;
     bottom: 0;
 }
 

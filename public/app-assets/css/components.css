@@ -1121,7 +1121,9 @@ footer.footer-border {
 
 .navigation li {
   position: relative;
-  white-space: nowrap; }
+  white-space: nowrap; 
+  margin-bottom: 5px;
+}
 
 .navigation li a {
   display: block;

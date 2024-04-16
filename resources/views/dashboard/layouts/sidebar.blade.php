@@ -43,8 +43,8 @@
     <div class="shadow-bottom"></div>
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-            <li class="active nav-item">
-                <a class="d-flex align-items-center" href="form-wizard.html">
+            <li class="nav-item">
+                <a class="d-flex align-items-center" href="#" style="border: 1.5px solid #898989;border-radius: 35px;">
                     <img src="{{ asset('app-assets/images/dash_images/create-contract.svg') }}" alt="" class="me-1">
                     <span class="menu-title text-truncate" data-i18n="Form Wizard">Create Contracts</span>
                 </a>
@@ -60,7 +60,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="d-flex align-items-center" href="{{ route('recieved') }}">
+                        <a class="d-flex align-items-center" href="#">
                             <img src="{{ asset('app-assets/images/dash_images/recieved-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Preview">Received</span>
                         </a>
