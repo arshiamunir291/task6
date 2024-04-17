@@ -1,29 +1,23 @@
-<div class="S_Step1 Step_First">
+<div class="Step_First S_step3 d-none">
     <div class="InnerText">
         <h3 class="mb-2 text-center">Purchase & Transfer Selection Page</h3>
     </div>
-    <div class="row justify-content-center step1">
+    <div class="row justify-content-center step3">
         <div class="col-md-3">
             <div class="Sendertabs">
                 <label class="">
-                    <input type="radio" name="sender" value="products">
-                    <img src="{{ asset('app-assets/images/recieved/product.png') }}" alt=""> Products
+                    <input type="radio" name="sender" value="money_transfer">
+                    <img src="{{ asset('app-assets/images/recieved/moneytransfor.png') }}" alt="">
+                    Money Transfer
                 </label>
             </div>
         </div>
         <div class="col-md-3">
             <div class="Sendertabs">
                 <label class="">
-                    <input type="radio" name="sender" value="services">
-                    <img src="{{ asset('app-assets/images/recieved/service.png') }}" alt=""> Services
-                </label>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="Sendertabs">
-                <label class="">
-                    <input type="radio" name="sender" value="other_purchase">
-                    <img src="{{ asset('app-assets/images/recieved/otherpurchase.png') }}" alt=""> Other Purchase
+                    <input type="radio" name="sender" value="bill_payment">
+                    <img src="{{ asset('app-assets/images/recieved/billpayment.png') }}" alt="">
+                    Bill Payment
                 </label>
             </div>
         </div>
@@ -36,7 +30,7 @@
                 <span></span>
             </div>
             <div class="InnerBtns">
-                <button type="button" class="backBtn prev-step" disabled>Back</button>
+                <button type="button" class="backBtn S_StepBack_2">Back</button>
                 <button type="button" class="startedBtn next-step">Next</button>
             </div>
         </div>
