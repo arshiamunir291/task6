@@ -28,12 +28,32 @@ nav .navbar-container .search-input.open {
                             <h3>
                                 Add Card Details
                             </h3>
-                            <div class="card_type">
-                                <input type="radio" style= "accent-color: #1F93FF">
-                                <label for="">Credit Debit Card</label>
+                            <form action="">
+                                <div class="credentials">
+                                    <div class="credit">
+                                        <div class="card_type">
+                                            <input type="radio" style="accent-color: #1F93FF">
+                                            <label for="">Credit Debit Card</label>
+                                        </div>
+                                        <div class="transect_type">
+                                            <img src="{{ asset('app-assets/images/recieved/pay.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Gpay">
+                                        <div class="card_type">
+                                            <input type="radio" style="accent-color: #1F93FF">
+                                            <label for="">G PAy</label>
+                                        </div>
+                                        <div class="transect_type">
+                                            <img src="{{ asset('app-assets/images/recieved/google.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
 
-                            </div>
-
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -1712,10 +1712,46 @@ p.Step_Count {
     height: 17px;
     border-radius: 50%;
     margin-right: 5px;
+    cursor: pointer;
     background: #D9D9D9;
-    border: 2px solid grey;
 }
 .payments_gateway .tabs_sectionsender .card_detail .card_type input[type=radio]:checked {
     background: #1F93FF; 
+}
+.payments_gateway .tabs_sectionsender .credentials{
+    background: #FFFFFF;
+    border: 1px solid #AEAEAE;
+    box-shadow: 0px 0px 10px 2px #3333330D;
+    margin-top: 30px;
+    border-radius: 10px;
+   
+}
+.payments_gateway .tabs_sectionsender form{
+    width: 50%;
+    margin: auto;
+   
+}
+.payments_gateway .tabs_sectionsender .credentials hr{ 
+    color: #BCBCBC;
+    margin: 0px;
+}
+.payments_gateway .tabs_sectionsender .credit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.payments_gateway .tabs_sectionsender .Gpay{
+    display: flex;
+    align-items: center;
+    gap: 62%;
+    padding: 20px;
+}
+.payments_gateway .tabs_sectionsender .credit img,.payments_gateway .tabs_sectionsender .Gpay img{
+  cursor: pointer;
+}
+.payments_gateway .tabs_sectionsender .credit .card_type,.payments_gateway .tabs_sectionsender .Gpay .card_type {
+  display: flex;
+  align-items: center;
 }
 /* Payments */
