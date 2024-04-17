@@ -555,7 +555,8 @@ p.Step_Count {
 
 /* Recieved payment */
 /* Sender payment */
-.tabs_sectionsender .InnerText p {
+.tabs_sectionsender .InnerText p,
+.S_step4 .InnerText p {
     font-family: 'Raleway_Bold';
     font-size: 19px;
     color: #0056D8;

@@ -9,9 +9,9 @@ Dashboard
 <link rel="stylesheet" href="{{ asset('app-assets/simplepicker/simplepicker.css') }}" />
 <script src="{{ asset('app-assets/simplepicker/simplepicker.js') }}"></script>
 <style>
-nav {
+/* nav {
     display: none !important;
-}
+} */
 </style>
 <div class="content-body step_formsrecieved">
     <div class="wizard">

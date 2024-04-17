@@ -38,6 +38,7 @@ Dashboard
                 @include('dashboard.sender.step-1')
                 @include('dashboard.sender.step-2')
                 @include('dashboard.sender.step-3')
+                @include('dashboard.sender.step-4')
                 <div class="row MultiForm_WrapHide">
                     <section class="MultiForm_Wrap other_page">
                         @include('dashboard.sender.forms')
@@ -153,6 +154,11 @@ Dashboard
                 $('.D_step2Nav').removeClass('active').addClass('disable');
                 $('.D_step3Nav').addClass('active').removeClass('disable');
             }
+        });
+        $('.Goto_S_step4').on('click', function(){
+            $('.start_end_date_Wrap, .InnerForm_Heading, .departure_arr_Wrap, .pick_drop_dates_Wrap, .check_in_out_Wrap').addClass('d-none');
+            $('.S_step3, .wizard').addClass('d-none');
+            $('.S_step4').removeClass('d-none');
         });
     });
 

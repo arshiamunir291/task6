@@ -19,9 +19,9 @@ OTHER PURCHASES PAGE
     <section class="MultiForm_Wrap oter_page">
         <div class="InnerForm_Wrap purchase">
             <div class="Step_First">
-                <div class="row">
+                <form action="" autocomplete="off">
+                    <div class="row">
                         <div class="col-md-6">
-                        <form action="" autocomplete="off">
                             <div class="Purchase_form">
                                 <label for="">Account Number or Reference Number</label>
                                 <input class="account_nmbr mb-1" type="password" placeholder="XXXXXXXXXXXXXXXXXXXXXXXX">
@@ -101,8 +101,6 @@ OTHER PURCHASES PAGE
                                 </div>
                             </div>
                         </div>
-                    </form>
-                    <div class="col-md-6">
                     </div>
                     <div class="NextBtns_bots justify-content-end">
                         <div class="DotsLeft d-none">
@@ -115,7 +113,7 @@ OTHER PURCHASES PAGE
                             <button type="button" class="startedBtn">Next</button>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
