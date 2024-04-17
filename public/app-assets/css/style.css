@@ -1695,3 +1695,27 @@ p.Step_Count {
 }
 
 /* Profile page */
+/* Payments */
+.payments_gateway .Step_First{
+    background: #FBFFCEC4;
+
+}  
+.payments_gateway .step_formsrecieved .Next_btnswrap {
+    bottom: -26px;
+}
+.payments_gateway .Sendertabs label {
+    text-align: center;
+}
+.payments_gateway .tabs_sectionsender .card_detail .card_type input[type=radio]{
+    -webkit-appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: #D9D9D9;
+    border: 2px solid grey;
+}
+.payments_gateway .tabs_sectionsender .card_detail .card_type input[type=radio]:checked {
+    background: #1F93FF; 
+}
+/* Payments */

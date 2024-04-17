@@ -34,3 +34,9 @@ Route::get('/Cancelled', function () {
 Route::get('/Profile', function () {
     return view('dashboard.transection_contract.Profile');
 });
+Route::get('/Payment', function () {
+    return view('dashboard.transection_contract.payment');
+});
+Route::get('/Paymentdetail', function () {
+    return view('dashboard.transection_contract.Paymentdetail');
+});
