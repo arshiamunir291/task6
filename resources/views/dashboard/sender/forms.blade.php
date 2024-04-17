@@ -425,3 +425,293 @@
         </div>
     </div>
 </div>
+
+{{-- /////////////////// --}}
+<div class="InnerForm_Wrap Receipts_Wrap pay_on_completion_Wrap d-none">
+    <div class="Step_First">
+        <form action="">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="Refundable">
+                        <label for="">Amount</label>
+                        <div class="select_dateinput2">
+                            <input type="number" placeholder="45, 000" class="mb-1">
+                            <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Intermediary">
+                        <label for="">Intermediary Fee</label>
+                        <div class="select_dateinput2">
+                            <input type="number" placeholder="45, 000" class="mb-1">
+                            <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="Refundable">
+                        <label for="">Non-Refundable Deposit Option</label>
+                        <div class="select_dateinput2">
+                            <input type="number" placeholder="45, 000" class="mb-1">
+                            <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Intermediary">
+                        <label for="">Total Received by Intermediary</label>
+                        <div class="select_dateinput2">
+                            <input type="number" placeholder="45, 000" class="mb-1">
+                            <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="schedule_dates">
+                        <div class="datepickerfields">
+                            <div class="mb-1">
+                                <label for="">Pay on Scheduled Completion Date</label>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="select_dateinput">
+                                            <input class="form-control date" type="text" placeholder="--/--/--">
+                                            <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="select_dateinput">
+                                            <input class="form-control date" type="text" placeholder="--/--/--" id="datepicker">
+                                            <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                            <div class="calendar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+{{-- pay_at_receipt_Wrap --}}
+<div class="InnerForm_Wrap Receipts_Wrap pay_at_receipt_Wrap d-none">
+    <div class="Step_First">
+        <form action="">
+            <div class="row justify-content-center step3">
+                <div class="col-md-6">
+                    <div class="Refundable">
+                        <label for="">Amount</label>
+                        <div class="select_dateinput2">
+                            <input type="number" placeholder="45, 000" class="mb-1">
+                            <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="Intermediary">
+                            <label for="">Total Received by Intermediary</label>
+                            <div class="select_dateinput2">
+                                <input type="number" placeholder="45, 000" class="mb-1">
+                                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="Refundable">
+                    <label for="">Non-Refundable Deposit Option</label>
+                    <div class="select_dateinput2">
+                        <input type="number" placeholder="45, 000" class="mb-1">
+                        <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Intermediary">
+                        <label for="">Intermediary Fee</label>
+                        <div class="select_dateinput2">
+                            <input type="number" placeholder="45, 000" class="mb-1">
+                            <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="schedule_dates">
+                        <div class="datepickerfields mb-1">
+                            <label for="">Pay on Scheduled Completion Date</label>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="select_dateinput">
+                                        <input class="form-control date" type="text" placeholder="--/--/--">
+                                        <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="select_dateinput">
+                                        <input class="form-control date" type="text" placeholder="--/--/--" id="datepicker">
+                                        <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                        <div class="calendar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="InnerForm_Wrap Receipts_Wrap pay_in_milestone_Wrap d-none">
+    <div class="Step_First">
+        <div class="row justify-content-center step4">
+            <div class="stepform_1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="InnerText">
+                            <h3 class="mb-2 text-center">Set Payment milestone</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="Refundable">
+                            <label for="">Title</label>
+                            <div class="select_dateinput2">
+                                <input type="number" placeholder="45, 000" class="mb-1">
+                                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="Refundable">
+                            <label for="">Amount</label>
+                            <div class="select_dateinput2">
+                                <input type="number" placeholder="45, 000" class="mb-1">
+                                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="Refundable">
+                            <label for="">Date</label>
+                            <div class="select_dateinput2">
+                                <input type="number" placeholder="45, 000" class="mb-1">
+                                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="add_userbtn text-center mt-3">
+                            <button class="form-changebtn border-0 bg-transparent">
+                                <img src="{{ asset('app-assets/images/recieved/adduserbtn.png') }}" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stepform_2 d-none">
+                <form action="">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="Refundable">
+                                <label for="">Amount</label>
+                                <div class="select_dateinput2">
+                                    <input type="number" placeholder="45, 000" class="mb-1">
+                                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="Intermediary">
+                                <label for="">Intermediary Fee</label>
+                                <div class="select_dateinput2">
+                                    <input type="number" placeholder="45, 000" class="mb-1">
+                                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="Refundable">
+                                <label for="">Non-Refundable Deposit Option</label>
+                                <div class="select_dateinput2">
+                                    <input type="number" placeholder="45, 000" class="mb-1">
+                                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="Intermediary">
+                                <label for="">Total Received by Intermediary</label>
+                                <div class="select_dateinput2">
+                                    <input type="number" placeholder="45, 000" class="mb-1">
+                                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="schedule_dates">
+                                <div class="datepickerfields mb-1">
+                                    <label for="">Progressive Payment Schedule</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="select_dateinput">
+                                                <input class="form-control date" type="text" placeholder="--/--/--">
+                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="select_dateinput">
+                                                <input class="form-control date" type="text" placeholder="--/--/--" id="datepicker">
+                                                <img src="{{ asset('app-assets/images/recieved/calendar.png') }}" alt="">
+                                                <div class="calendar"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="row mt-3 justify-content-center">
+                    <div class="col-md-12">
+                        <div class="InnerText">
+                            <h3 class="mb-2 text-center">Set Payment milestone</h3>
+                        </div>
+                        <div class="mt-2 d-flex justify-content-center data">
+                            <div>
+                                <label for="">Title</label>
+                                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="" class="me-1">
+                                <span>45,000</span>
+                            </div>
+                            <div>
+                                <label for="">Amount</label>
+                                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="" class="me-1">
+                                <span>45,000</span>
+                            </div>
+                            <div>
+                                <label for="">Date</label>
+                                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="" class="me-1">
+                                <span>45,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
