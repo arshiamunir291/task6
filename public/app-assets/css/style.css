@@ -1285,16 +1285,23 @@ p.Step_Count {
     font-family: 'clash displayextrabold';
     src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Bold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'clash displayextrabold';
+    src: url('//public/app-assets/fonts/') format('truetype');
+}
 
 .transection_dashboard .transdetail_chart table thead th {
-    font-family: 'clash displaybold';
+    /* font-family: 'clash displaybold'; */
+    font-family: 'Clash_Display_Medium';
     line-height: 16px;
     color: #2B2B36;
+    font-weight: 500;
 }
 
 .transection_dashboard .transdetail_chart table tbody td {
     font-weight: 600;
-    font-family: 'clash displaybold';
+    /* font-family: 'clash displaybold'; */
+    font-family: 'Clash_Display_SemiBold';
     font-size: 16px;
     color: #2B2B36;
 

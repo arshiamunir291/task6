@@ -6,95 +6,7 @@ Dashboard
 Dashboard
 @endsection
 @section('Main_content')
-<div class="content-body transection_dashboard" id="test">
-    <div class="row mt-5 mb-2 visitorcards">
-        <div class="col-lg-3">
-            <div class="visited text-left">
-                <div>
-                    <img src="{{ asset('app-assets/images/recieved/earningcard5.png') }}" alt="">
-                </div>
-                <div class="Total_visit">
-                    <span>
-                        Total Visitors
-                    </span>
-                </div>
-                <div class="price">
-                    <span>
-                        $53,00989
-                    </span>
-                </div>
-                <div class="d-flex  monthlyresults">
-                    <p><img src="{{ asset('app-assets/images/recieved/increase.png') }}" alt=""></p>
-                    <p>12% increase from last month</p>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-lg-3">
-            <div class="visited text-left">
-                <div>
-                    <img src="{{ asset('app-assets/images/recieved/earningcard6.png') }}" alt="">
-                </div>
-                <div class="Total_visit">
-                    <span>
-                        Visits Today
-                    </span>
-                </div>
-                <div class="price2">
-                    <span class="sp1">
-                        95
-                    </span><span class="sp2">/100</span>
-                </div>
-                <div class="d-flex  monthlyresults">
-                    <p><img src="{{ asset('app-assets/images/recieved/decrease.png')}}" alt=""></p>
-                    <p>10% decrease from last month</p>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="col-lg-3">
-            <div class="visited text-left">
-                <div>
-                    <img src="{{ asset('app-assets/images/recieved/earningcard7.png') }}" alt="">
-                </div>
-                <div class="Total_visit">
-                    <span>
-                        Average time spend
-                    </span>
-                </div>
-                <div class="price2">
-                    <span class="sp1">
-                        1022
-                    </span><span class="sp2">/1300 Hrs</span>
-                </div>
-                <div class="d-flex  monthlyresults">
-                    <p><img src="{{ asset('app-assets/images/recieved/increase.png') }}" alt=""></p>
-                    <p>8% increase from last month</p>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-lg-3">
-            <div class="visited text-left">
-                <div>
-                    <img src="{{ asset('app-assets/images/recieved/earningcard8.png') }}" alt="">
-                </div>
-                <div class="Total_visit">
-                    <span>
-                        Today clocked out
-                    </span>
-                </div>
-                <div class="price2">
-                    <span class="sp1">101 </span><span class="sp2">/120</span>
-                </div>
-                <div class="d-flex monthlyresults">
-                    <p><img src="{{ asset('app-assets/images/recieved/increase.png') }}" alt=""></p>
-                    <p>2% increase from last month</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="content-body transection_dashboard">
     <!-- Horizontal Wizard -->
     <section class="MultiForm_Wrap tabs_section tabs_sectionsender">
         <div class="InnerForm_Wrap">
@@ -103,10 +15,12 @@ Dashboard
                     <div class="col-lg-12">
                         <div class="d-flex gap-2 align-items-center">
                             <div class="Active_contract">
-                                <h1>Active Contract</h1>
+                                <h1>Received Contract</h1>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
                 <div class="row">
                     <div class="col-lg-12">

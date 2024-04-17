@@ -49,30 +49,32 @@
                     <span class="menu-title text-truncate" data-i18n="Form Wizard">Create Contracts</span>
                 </a>
             </li>
-            <li class="nav-item"><a class="d-flex align-items-center" href="#">
+            <li class="nav-item">
+                <a class="d-flex align-items-center" href="#">
                 <img src="{{ asset('app-assets/images/dash_images/my-contracts.svg') }}" alt="" class="me-1">
                 <span class="menu-title text-truncate" data-i18n="Invoice">My Contracts</span></a>
                 <ul class="menu-content">
                     <li>
-                        <a class="d-flex align-items-center" href="app-invoice-list.html">
+
+                    <a class="d-flex align-items-center" href="{{url('Mycontracts/Activecontract') }}">
                             <img src="{{ asset('app-assets/images/dash_images/active-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="List">Active Contracts</span>
                         </a>
                     </li>
                     <li>
-                        <a class="d-flex align-items-center" href="#">
+                         <a class="d-flex align-items-center" href="{{url('Mycontracts/Recievedcontract') }}">
                             <img src="{{ asset('app-assets/images/dash_images/recieved-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Preview">Received</span>
                         </a>
                     </li>
                     <li>
-                        <a class="d-flex align-items-center" href="app-invoice-edit.html">
+                        <a class="d-flex align-items-center"  href="{{url('Mycontracts/Cancelled') }}">
                             <img src="{{ asset('app-assets/images/dash_images/cancelled-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Edit">Cancelled</span>
                         </a>
                     </li>
                     <li>
-                        <a class="d-flex align-items-center" href="app-invoice-add.html">
+                    <a class="d-flex align-items-center"  href="{{url('Mycontracts/Completedcontract') }}">
                             <img src="{{ asset('app-assets/images/dash_images/completed-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Add">Completed</span>
                         </a>
@@ -80,7 +82,7 @@
                 </ul>
             </li>
             <li class="nav-item">
-                <a class="d-flex align-items-center" href="form-wizard.html">
+                <a class="d-flex align-items-center" href="{{url('transection') }}">
                     <img src="{{ asset('app-assets/images/dash_images/transactions.svg') }}" alt="" class="me-1">
                     <span class="menu-title text-truncate" data-i18n="Form Wizard">My Transactions</span>
                 </a>

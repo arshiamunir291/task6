@@ -22,15 +22,18 @@ Route::get('/transection', function () {
 Route::get('/Earning', function () {
     return view('dashboard.transection_contract.Earning');
 });
-Route::get('/Transparent', function () {
+Route::get('Mycontracts/Activecontract', function () {
     return view('dashboard.transection_contract.Transparent');
 });
-Route::get('/Recievedcontract', function () {
+Route::get('Mycontracts/Recievedcontract', function () {
     return view('dashboard.transection_contract.Recievedcontract');
 });
-Route::get('/Cancelled', function () {
+Route::get('Mycontracts/Cancelled', function () {
     return view('dashboard.transection_contract.Cancelled');
 });
 Route::get('/Profile', function () {
     return view('dashboard.transection_contract.Profile');
+});
+Route::get('Mycontracts/Completedcontract', function () {
+    return view('dashboard.transection_contract.Completed');
 });
