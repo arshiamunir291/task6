@@ -122,6 +122,25 @@ Dashboard
             $('.start_end_date_Wrap, .InnerForm_Heading, .departure_arr_Wrap, .pick_drop_dates_Wrap, .check_in_out_Wrap').addClass('d-none');
             $('.S_Step2').removeClass('d-none');
         });
+        $('.S_StepBack_2').on('click', function(){
+            $('.S_Step2').removeClass('d-none');
+            $('.S_step3').addClass('d-none');
+            if ($('.S_step3').hasClass('d-none')) {
+                $('.D_step3Nav').removeClass('active').addClass('disable');
+                $('.D_step2Nav').addClass('active').removeClass('disable');
+            }
+        });
+        $('.S_StepBack_3').on('click', function(){
+            $('.S_step3').removeClass('d-none');
+            $('.S_step4').addClass('d-none');
+            $('.wizard').removeClass('d-none');
+            if ($('.S_step3').hasClass('d-none')) {
+                // $('.D_step3Nav').removeClass('active').addClass('disable');
+                $('.D_step3Nav').addClass('active').removeClass('disable');
+            }
+        });
+
+        /////////
         $('.Sendertabs input[type="radio"][value="start_end_date"]').change(function() {
             if ($(this).is(':checked')) {
                 $('.start_end_date_Wrap, .InnerForm_Heading').removeClass('d-none');
@@ -147,6 +166,25 @@ Dashboard
             }
         });
 
+        $('.Sendertabs input[type="radio"][value="pay_on_completion"]').change(function() {
+            if ($(this).is(':checked')) {
+                $('.pay_on_completion_Wrap').removeClass('d-none');
+                $('.S_step4').addClass('d-none');
+            }
+        });
+        $('.Sendertabs input[type="radio"][value="pay_at_receipt"]').change(function() {
+            if ($(this).is(':checked')) {
+                $('.pay_at_receipt_Wrap').removeClass('d-none');
+                $('.S_step4').addClass('d-none');
+            }
+        });
+        $('.Sendertabs input[type="radio"][value="pay_in_milestone"]').change(function() {
+            if ($(this).is(':checked')) {
+                $('.pay_in_milestone_Wrap').removeClass('d-none');
+                $('.S_step4').addClass('d-none');
+            }
+        });
+
         $('.Go_to_S_Step3').on('click', function(){
             $('.start_end_date_Wrap, .InnerForm_Heading, .departure_arr_Wrap, .pick_drop_dates_Wrap, .check_in_out_Wrap').addClass('d-none');
             $('.S_step3').removeClass('d-none');
@@ -161,11 +199,54 @@ Dashboard
             $('.S_step4').removeClass('d-none');
         });
     });
+    document.addEventListener('DOMContentLoaded', function() {
+        const formChangeBtn = document.querySelector('.form-changebtn');
+        const stepForm1 = document.querySelector('.stepform_1');
+        const stepForm2 = document.querySelector('.stepform_2');
+
+        formChangeBtn.addEventListener('click', function() {
+            // Remove d-none class from stepform_2
+            stepForm2.classList.remove('d-none');
+            // Add d-none class to stepform_1
+            stepForm1.classList.add('d-none');
+
+        });
+        $('.prev-step').click(function() {
+            // Hide stepform_2 and show stepform_1
+            $('.stepform_2').addClass('d-none');
+            $('.stepform_1').removeClass('d-none');
+        });
+    });
 
 </script>
 @endsection
 @section('js')
 <script>
+    $(document).ready(function() {
+        let simplepicker = new SimplePicker({
+            zIndex: 10,
+        });
+        // Function to open SimplePicker
+        function openDatePicker() {
+            simplepicker.open();
+        }
+        // Add click event listener to the input field
+        $(document).on('click', '.date', function() {
+            simplepicker.disableTimeSection()
+            openDatePicker();
+        });
+        // Event listener for SimplePicker 'submit' event
+        simplepicker.on('submit', (date, readableDate) => {
+            // Set the selected date in the input field value
+            const selectedDate = new Date(date);
+            const formattedDate = selectedDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit'
+            });
+            $('.date').value = formattedDate;
+        });
+    });
     $(document).ready(function(){
         // Listen for changes in the radio button selection
         $('.Sendertabs input[type="radio"]').change(function() {

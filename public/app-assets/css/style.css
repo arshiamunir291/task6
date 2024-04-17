@@ -563,7 +563,7 @@ p.Step_Count {
     text-transform: uppercase;
 }
 
-.tabs_sectionsender .step2 label {
+.Receipts_Wrap .Step_First label {
     display: block;
     font-family: 'Ralewayfont';
     font-size: 16px;
@@ -571,9 +571,9 @@ p.Step_Count {
     color: #000000;
 }
 
-.tabs_sectionsender .step2 .Refundable input {
+.Receipts_Wrap .Step_First .Refundable input {
     border: 1px solid #E1E1E1;
-    padding: 12px 191px 12px 29px;
+    padding: 12px 0 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
@@ -582,7 +582,7 @@ p.Step_Count {
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
 
-.tabs_sectionsender .step2 .schedule_dates input {
+.Receipts_Wrap .Step_First .schedule_dates input {
     border: 1px solid #E1E1E1;
     padding: 12px 20px 12px 42px;
     border-radius: 10px;
@@ -592,55 +592,55 @@ p.Step_Count {
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
 
-.tabs_sectionsender .step2 .Refundable input::placeholder {
+.Receipts_Wrap .Step_First .Refundable input::placeholder {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 }
 
-.tabs_sectionsender .step2 .Refundable .select_dateinput2 {
+.Receipts_Wrap .Step_First .Refundable .select_dateinput2 {
     position: relative;
 }
 
-.tabs_sectionsender .step2 .Refundable .select_dateinput2 img {
+.Receipts_Wrap .Step_First .Refundable .select_dateinput2 img {
     position: absolute;
     top: 16px;
     left: 13px;
 }
 
-.tabs_sectionsender .step2 .Intermediary .select_dateinput2 img {
+.Receipts_Wrap .Step_First .Intermediary .select_dateinput2 img {
     position: absolute;
     top: 16px;
     left: 13px;
 }
 
-.tabs_sectionsender .step2 .Intermediary .select_dateinput2 {
+.Receipts_Wrap .Step_First .Intermediary .select_dateinput2 {
     position: relative;
 }
 
-.tabs_sectionsender .step2 .datepickerfields input::placeholder {
+.Receipts_Wrap .Step_First .datepickerfields input::placeholder {
     color: #000000;
     opacity: 60%;
 
 
 }
 
-.tabs_sectionsender .step2 .schedule_dates .select_dateinput {
+.Receipts_Wrap .Step_First .schedule_dates .select_dateinput {
     position: relative;
 }
 
-.tabs_sectionsender .step2 .schedule_dates .select_dateinput img {
+.Receipts_Wrap .Step_First .schedule_dates .select_dateinput img {
     position: absolute;
     top: 14px;
     left: 13px;
 }
 
-.tabs_sectionsender .step2 .schedule_dates .datepickerfields {
+.Receipts_Wrap .Step_First .schedule_dates .datepickerfields {
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.tabs_sectionsender .step2 .Intermediary input {
+.Receipts_Wrap .Step_First .Intermediary input {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
@@ -651,7 +651,7 @@ p.Step_Count {
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
 
-.tabs_sectionsender .step2 .Intermediary input::placeholder {
+.Receipts_Wrap .Step_First .Intermediary input::placeholder {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
@@ -754,7 +754,7 @@ p.Step_Count {
 
 /*  */
 /*  */
-.tabs_sectionsender .step4 label {
+.Receipts_Wrap .Step_First label {
     display: block;
     font-family: 'Ralewayfont';
     font-size: 16px;
@@ -762,7 +762,7 @@ p.Step_Count {
     color: #000000;
 }
 
-.tabs_sectionsender .step4 .Refundable input {
+.Receipts_Wrap .Step_First .Refundable input {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
@@ -773,7 +773,7 @@ p.Step_Count {
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
 
-.tabs_sectionsender .step4 .schedule_dates input {
+.Receipts_Wrap .Step_First .schedule_dates input {
     border: 1px solid #E1E1E1;
     padding: 12px 20px 12px 42px;
     border-radius: 10px;
@@ -783,55 +783,55 @@ p.Step_Count {
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
 
-.tabs_sectionsender .step4 .Refundable input::placeholder {
+.Receipts_Wrap .Step_First .Refundable input::placeholder {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 }
 
-.tabs_sectionsender .step4 .Refundable .select_dateinput2 {
+.Receipts_Wrap .Step_First .Refundable .select_dateinput2 {
     position: relative;
 }
 
-.tabs_sectionsender .step4 .Refundable .select_dateinput2 img {
+.Receipts_Wrap .Step_First .Refundable .select_dateinput2 img {
     position: absolute;
     top: 16px;
     left: 13px;
 }
 
-.tabs_sectionsender .step4 .Intermediary .select_dateinput2 img {
+.Receipts_Wrap .Step_First .Intermediary .select_dateinput2 img {
     position: absolute;
     top: 16px;
     left: 13px;
 }
 
-.tabs_sectionsender .step4 .Intermediary .select_dateinput2 {
+.Receipts_Wrap .Step_First .Intermediary .select_dateinput2 {
     position: relative;
 }
 
-.tabs_sectionsender .step4 .datepickerfields input::placeholder {
+.Receipts_Wrap .Step_First .datepickerfields input::placeholder {
     color: #000000;
     opacity: 60%;
 
 
 }
 
-.tabs_sectionsender .step4 .schedule_dates .select_dateinput {
+.Receipts_Wrap .Step_First .schedule_dates .select_dateinput {
     position: relative;
 }
 
-.tabs_sectionsender .step4 .schedule_dates .select_dateinput img {
+.Receipts_Wrap .Step_First .schedule_dates .select_dateinput img {
     position: absolute;
     top: 14px;
     left: 13px;
 }
 
-.tabs_sectionsender .step4 .schedule_dates .datepickerfields {
+.Receipts_Wrap .Step_First .schedule_dates .datepickerfields {
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.tabs_sectionsender .step4 .Intermediary input {
+.Receipts_Wrap .Step_First .Intermediary input {
     border: 1px solid #E1E1E1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
@@ -842,33 +842,33 @@ p.Step_Count {
     box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
 }
 
-.tabs_sectionsender .step4 .Intermediary input::placeholder {
+.Receipts_Wrap .Step_First .Intermediary input::placeholder {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 }
 
-.tabs_sectionsender .step4 .add_userbtn button {
+.Receipts_Wrap .Step_First .add_userbtn button {
     background: transparent;
     border: none;
 
 }
 
-.tabs_sectionsender .step4 .stepform_2 span {
+.Receipts_Wrap .Step_First .stepform_2 span {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 
 }
 
-.tabs_sectionsender .step4 .stepform_2 span {
+.Receipts_Wrap .Step_First .stepform_2 span {
     font-family: 'Ralewayfont2';
     font-size: 15px;
     color: #2D5BFF;
 
 }
 
-.tabs_sectionsender .step4 .stepform_2 .data {
+.Receipts_Wrap .Step_First .stepform_2 .data {
     gap: 33%;
     flex-wrap: wrap;
 
