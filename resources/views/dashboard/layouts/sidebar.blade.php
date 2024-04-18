@@ -61,19 +61,19 @@
                             <span class="menu-item text-truncate" data-i18n="List">Active Contracts</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="@yield('Recieved_Contracts')">
                         <a class="d-flex align-items-center" href="{{url('Mycontracts/Recievedcontract')}}">
                             <img src="{{ asset('app-assets/images/dash_images/recieved-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Preview">Received</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="@yield('Cancelled_Contracts')">
                         <a class="d-flex align-items-center" href="{{url('Mycontracts/Cancelled')}}">
                             <img src="{{ asset('app-assets/images/dash_images/cancelled-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Edit">Cancelled</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="@yield('Completed_Contracts')">
                         <a class="d-flex align-items-center" href="{{url('Mycontracts/Completedcontract')}}">
                             <img src="{{ asset('app-assets/images/dash_images/completed-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Add">Completed</span>
@@ -81,7 +81,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item @yield('My_Transections')">
                 <a class="d-flex align-items-center"  href="{{url('transection')}}">
                     <img src="{{ asset('app-assets/images/dash_images/transactions.svg') }}" alt="" class="me-1">
                     <span class="menu-title text-truncate" data-i18n="Form Wizard">My Transactions</span>

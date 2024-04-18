@@ -5,6 +5,9 @@ Dashboard
 @section('Heading')
 My Transactions
 @endsection
+@section('My_Transections')
+active
+@endsection
 @section('Main_content')
 <div class="content-body transection_dashboard">
     <!-- Horizontal Wizard -->

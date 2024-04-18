@@ -5,6 +5,12 @@ Dashboard
 @section('Heading')
 Dashboard
 @endsection
+@section('ContractOpen')
+open
+@endsection
+@section('Cancelled_Contracts')
+active
+@endsection
 @section('Main_content')
 <div class="content-body transection_dashboard">
     <!-- Horizontal Wizard -->

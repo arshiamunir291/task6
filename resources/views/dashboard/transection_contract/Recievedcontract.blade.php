@@ -6,6 +6,12 @@ Dashboard
 Received Contract
 @endsection
 @section('Main_content')
+@section('ContractOpen')
+open
+@endsection
+@section('Recieved_Contracts')
+active
+@endsection
 <div class="content-body transection_dashboard">
     <!-- Horizontal Wizard -->
     <section class="MultiForm_Wrap tabs_section tabs_sectionsender">

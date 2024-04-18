@@ -1720,3 +1720,17 @@ padding: 15px 11px 13px 14px;
 border-radius: 10px ;
 border: 1px solid #AEAEAE;
 }
+.generate-btn button{
+    width:100%;
+ max-width: 158px;
+height:40px;
+padding: 10px 17px ;
+border-radius: 5px;
+background: #42A4FF;
+font-family: Raleway;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color:#FFFFFF;
+}

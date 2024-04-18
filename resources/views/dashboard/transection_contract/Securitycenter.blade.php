@@ -29,7 +29,7 @@ Received Contract
                                 </select>
                             </div>
                             <div class="generate-btn">
-                                <button class="btn btn-primary">Generate</button>
+                                <button class="btn">Generate</button>
                             </div>
                         </div>
                     </div>
