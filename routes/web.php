@@ -38,3 +38,9 @@ Route::get('/Profile', function () {
 Route::get('Mycontracts/Completedcontract', function () {
     return view('dashboard.transection_contract.Completed');
 });
+Route::get('/Payment', function () {
+    return view('dashboard.transection_contract.Payment');
+});
+Route::get('/Securitycenter', function () {
+    return view('dashboard.transection_contract.Securitycenter');
+});

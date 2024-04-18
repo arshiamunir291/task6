@@ -15,7 +15,7 @@ Dashboard
                     <div class="col-lg-12">
                         <div class="d-flex gap-2 align-items-center">
                             <div class="Active_contract">
-                                <h1>Received Contract</h1>
+                                <h1>Cancelled Contract</h1>
                             </div>
                         </div>
 

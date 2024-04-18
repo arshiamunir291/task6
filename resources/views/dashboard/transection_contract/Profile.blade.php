@@ -6,15 +6,15 @@ Dashboard
 Dashboard
 @endsection
 @section('Main_content')
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <style>
-.header-navbar {
+/* .header-navbar {
     display: none;
 }
 
 .header-navbar-shadow {
     display: none !important;
-}
+} */
 </style>
 <div class="content-bod  Profile_section">
     <div class="row">
@@ -22,9 +22,7 @@ Dashboard
             <div class="Profile mb-4">
                 <h1>My Profile</h1>
             </div>
-
         </div>
-
     </div>
     <!-- Horizontal Wizard -->
     <section class="MultiForm_Wrap tabs_section tabs_sectionsender">

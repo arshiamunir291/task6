@@ -16,6 +16,7 @@ nav .ProfileR_Nav {
 nav .navbar-container .search-input.open {
     display: none;
 }
+
 </style>
 <div class="content-body step_formsrecieved payments_gateway">
     <!-- Horizontal Wizard -->

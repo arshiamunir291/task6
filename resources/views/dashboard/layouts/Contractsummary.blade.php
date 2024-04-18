@@ -7,9 +7,9 @@ Dashboard
 @endsection
 @section('Main_content')
 <style>
-nav {
+/* nav {
     display: none !important;
-}
+} */
 </style>
 <div class="content-body contractsummary">
     <!-- Horizontal Wizard -->
