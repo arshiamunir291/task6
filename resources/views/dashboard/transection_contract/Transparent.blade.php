@@ -341,7 +341,7 @@ Dashboard
                                             </div>
                                         </td>
                                         <td>
-                                            $ 45,000
+                                            $ 45,000  
                                         </td>
                                         <td style="border-radius: 0px 10px 10px 0px;">
                                             <div class="dropdown">
