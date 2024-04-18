@@ -864,10 +864,11 @@ footer.footer-border {
   color: #787486; }
 
 .main-menu.menu-light .navigation > li ul .active {
-  background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7));
-  box-shadow: 0 0 10px 1px rgba(115, 103, 240, 0.7);
-  border-radius: 4px;
-  z-index: 1; }
+    background: linear-gradient(118deg, #ffb327, rgb(255 178 38));
+    box-shadow: 0 0 10px 1px rgb(255 239 69);
+    border-radius: 35px;
+    z-index: 1;
+}
 
 .main-menu.menu-light .navigation > li ul .active > a {
   color: #fff; }

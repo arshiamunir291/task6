@@ -49,11 +49,13 @@
                     <span class="menu-title text-truncate" data-i18n="Form Wizard">Create Contracts</span>
                 </a>
             </li>
-            <li class="nav-item"><a class="d-flex align-items-center" href="#">
-                <img src="{{ asset('app-assets/images/dash_images/my-contracts.svg') }}" alt="" class="me-1">
-                <span class="menu-title text-truncate" data-i18n="Invoice">My Contracts</span></a>
+            <li class="nav-item @yield('ContractOpen')">
+                <a class="d-flex align-items-center" href="#">
+                    <img src="{{ asset('app-assets/images/dash_images/my-contracts.svg') }}" alt="" class="me-1">
+                    <span class="menu-title text-truncate" data-i18n="Invoice">My Contracts</span>
+                </a>
                 <ul class="menu-content">
-                    <li>
+                    <li class="@yield('Active_Contracts')">
                         <a class="d-flex align-items-center" href="{{url('Mycontracts/Activecontract')}}">
                             <img src="{{ asset('app-assets/images/dash_images/active-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="List">Active Contracts</span>
