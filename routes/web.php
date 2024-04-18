@@ -7,13 +7,14 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', [DashHomeController::class, 'index'])->name('dashboard.home');
 Route::get('/sender_form', [DashHomeController::class, 'send'])->name('sender_form');
+
 Route::get('/Purchase', function () {
     return view('dashboard.layouts.Purchase');
 });
 Route::get('/Sender', function () {
     return view('dashboard.layouts.Sender');
 });
-Route::get('/Contract', function () {
+Route::get('/Contractsummary', function () {
     return view('dashboard.layouts.Contractsummary');
 });
 Route::get('/transection', function () {

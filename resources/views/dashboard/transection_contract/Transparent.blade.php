@@ -6,7 +6,7 @@ Dashboard
 Dashboard
 @endsection
 @section('Main_content')
-<div class="content-body transection_dashboard" id="test">
+<div class="content-body transection_dashboard">
     <div class="row mt-5 mb-2 visitorcards">
         <div class="col-lg-3">
             <div class="visited text-left">
@@ -178,14 +178,14 @@ Dashboard
                                                 </button>
                                                 <div class="dropdown-menu drop_set"
                                                     aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
+                                                    <a class="dropdown-item" href="{{url('Contractsummary') }}">
+                                                        <img src="{{ asset('app-assets/images/recieved/drop1.png') }}"
                                                             alt="" class="me-1">View contract summary</a>
                                                     <a class="dropdown-item" href="#"><img
                                                             src="{{ asset('app-assets/images/recieved/drop2.png') }}"
                                                             alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
+                                                    <a class="dropdown-item" href="#">
+                                                        <img src="{{ asset('app-assets/images/recieved/drop3.png') }}"
                                                             alt="" class="me-1">Make Payment</a>
                                                     <a class="dropdown-item" href="#"><img
                                                             src="{{ asset('app-assets/images/recieved/drop4.png') }}"
