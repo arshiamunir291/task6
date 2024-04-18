@@ -7,13 +7,14 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', [DashHomeController::class, 'index'])->name('dashboard.home');
 Route::get('/sender_form', [DashHomeController::class, 'send'])->name('sender_form');
+
 Route::get('/Purchase', function () {
     return view('dashboard.layouts.Purchase');
 });
 Route::get('/Sender', function () {
     return view('dashboard.layouts.Sender');
 });
-Route::get('/Contract', function () {
+Route::get('/Contractsummary', function () {
     return view('dashboard.layouts.Contractsummary');
 });
 Route::get('/transection', function () {
@@ -22,21 +23,18 @@ Route::get('/transection', function () {
 Route::get('/Earning', function () {
     return view('dashboard.transection_contract.Earning');
 });
-Route::get('/Transparent', function () {
+Route::get('Mycontracts/Activecontract', function () {
     return view('dashboard.transection_contract.Transparent');
 });
-Route::get('/Recievedcontract', function () {
+Route::get('Mycontracts/Recievedcontract', function () {
     return view('dashboard.transection_contract.Recievedcontract');
 });
-Route::get('/Cancelled', function () {
+Route::get('Mycontracts/Cancelled', function () {
     return view('dashboard.transection_contract.Cancelled');
 });
 Route::get('/Profile', function () {
     return view('dashboard.transection_contract.Profile');
 });
-Route::get('/Payment', function () {
-    return view('dashboard.transection_contract.payment');
-});
-Route::get('/Paymentdetail', function () {
-    return view('dashboard.transection_contract.Paymentdetail');
+Route::get('Mycontracts/Completedcontract', function () {
+    return view('dashboard.transection_contract.Completed');
 });

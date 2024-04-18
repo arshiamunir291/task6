@@ -9,9 +9,9 @@ Dashboard
 <link rel="stylesheet" href="{{ asset('app-assets/simplepicker/simplepicker.css') }}" />
 <script src="{{ asset('app-assets/simplepicker/simplepicker.js') }}"></script>
 <style>
-nav {
+/* nav {
     display: none !important;
-}
+} */
 </style>
 <div class="content-body step_formsrecieved">
     <div class="wizard">
@@ -144,27 +144,26 @@ nav {
                                 <div class="calendar"></div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-    </div>
-    <div class="col-lg-6">
-        <div class="Intermediary">
-            <label for="">Intermediary Fee</label>
-            <div class="select_dateinput2">
-                <input type="number" placeholder="45, 000" class="mb-1">
-                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+        </div>
+        <div class="col-lg-6">
+            <div class="Intermediary">
+                <label for="">Intermediary Fee</label>
+                <div class="select_dateinput2">
+                    <input type="number" placeholder="45, 000" class="mb-1">
+                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                </div>
+            </div>
+            <div class="Intermediary">
+                <label for="">Total Received by Intermediary</label>
+                <div class="select_dateinput2">
+                    <input type="number" placeholder="45, 000" class="mb-1">
+                    <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
+                </div>
             </div>
         </div>
-        <div class="Intermediary">
-            <label for="">Total Received by Intermediary</label>
-            <div class="select_dateinput2">
-                <input type="number" placeholder="45, 000" class="mb-1">
-                <img src="{{ asset('app-assets/images/recieved/dollar.png') }}" alt="">
-            </div>
-        </div>
-    </div>
     </form>
 </div>
 <div class="row justify-content-center hidetest step3">

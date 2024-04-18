@@ -31,7 +31,7 @@
             </div>
             <div class="InnerBtns">
                 <button type="button" class="backBtn S_StepBack_2">Back</button>
-                <button type="button" class="startedBtn next-step">Next</button>
+                <button type="button" class="startedBtn next-step Goto_S_step4">Next</button>
             </div>
         </div>
     </div>
