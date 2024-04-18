@@ -15,7 +15,7 @@ nav {
     <!-- Horizontal Wizard -->
     <section class="MultiForm_Wrap tabs_section">
         <div class="InnerForm_Wrap">
-            <div class="Step_First ">
+            <div class="Step_First">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="summary-wrap">

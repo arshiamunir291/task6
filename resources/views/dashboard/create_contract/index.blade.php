@@ -234,10 +234,19 @@ Dashboard
     </div>
     <section class="MultiForm_Wrap tabs_section">
         <div class="InnerForm_Wrap">
-            <div class="Step_First FormStepLine">
-                @include('dashboard.create_contract.step-1')
-                @include('dashboard.create_contract.step-2')
-                @include('dashboard.create_contract.step-3')
+            <div class="Step_First FormStepLine position-relative">
+                @include('dashboard.create_contract.steps.step-1')
+                @include('dashboard.create_contract.steps.step-2')
+                @include('dashboard.create_contract.steps.step-3')
+                @include('dashboard.create_contract.steps.step-4')
+                @include('dashboard.create_contract.steps.step-5')
+                @include('dashboard.create_contract.steps.step-6')
+                @include('dashboard.create_contract.steps.step-7')
+                <div class="row MultiForm_WrapHide">
+                    <section class="MultiForm_Wrap other_page">
+                        @include('dashboard.create_contract.forms')
+                    </section>
+                </div>
             </div>
         </div>
     </section>
@@ -247,40 +256,6 @@ Dashboard
 @section('js')
     <script>
         $(document).ready(function() {
-            // $(".backBtn").prop("disabled", true);
-
-            // // Click event for Next button
-            // $(".startedBtn").click(function() {
-            //     var currentStep = $('.wizard-inner .nav-tabs li.active, .DotsLeft .nav-tabs li.active').index();
-            //     $(".step" + (currentStep + 1)).addClass("hidetest");
-            //     $(".step" + (currentStep + 2)).removeClass("hidetest");
-            //     $(".backBtn").prop("disabled", false);
-            //     $('.wizard-inner .nav-tabs li, .DotsLeft .nav-tabs li').eq(currentStep).next('li').find('a').click();
-            // });
-
-            // // Click event for Back button
-            // $(".backBtn").click(function() {
-            //     var currentStep = $('.wizard-inner .nav-tabs li.active, .DotsLeft .nav-tabs li.active').index();
-            //     $(".step" + (currentStep + 1)).addClass("hidetest");
-            //     $(".step" + currentStep).removeClass("hidetest");
-            //     $(".backBtn").prop("disabled", currentStep === 1);
-            //     $('.wizard-inner .nav-tabs li, .DotsLeft .nav-tabs li').eq(currentStep - 1).find('a').click();
-            // });
-
-            // // Click event for navigation tabs
-            // $('.nav-tabs').on('click', 'li', function() {
-            //     var clickedIndex = $(this).index();
-            //     var currentStep = $('.wizard-inner .nav-tabs li.active, .DotsLeft .nav-tabs li').index();
-
-            //     $(".step" + (currentStep + 1)).addClass("hidetest");
-            //     $(".step" + (clickedIndex + 1)).removeClass("hidetest");
-
-            //     $(".backBtn").prop("disabled", clickedIndex === 0);
-            //     $(".startedBtn").prop("disabled", clickedIndex === 2);
-
-            //     $('.wizard-inner .nav-tabs li.active, .DotsLeft .nav-tabs li.active').removeClass('active');
-            //     $(this).addClass('active');
-            // });
 
             $('.Get_StartedBtn').on('click', function(){
                 $('.D_step1').addClass('d-none');
@@ -314,7 +289,16 @@ Dashboard
                     $('.D_step2Nav').addClass('active').removeClass('disable');
                     $('.D_step3Nav').removeClass('active').addClass('disable');
                 }
-            })
+            });
+            $('.Next_Step4').on('click', function(){
+                $('.Individual_Wrap, .CompanyInformation_Wrap').addClass('d-none');
+                $('.S_Step4').removeClass('d-none');
+                if (!$('.D_step4').hasClass('d-none')) {
+                    $('.D_step1Nav').addClass('active').removeClass('disable');
+                    $('.D_step2Nav, .D_step3Nav').removeClass('active').addClass('disable');
+                }
+            });
+
 
             $('.Sendertabs input[type="radio"][value="individual"]').change(function() {
                 if ($(this).is(':checked')) {
@@ -333,6 +317,134 @@ Dashboard
                 $('.CompanyInformation_Wrap').addClass('d-none');
                 $('.D_step3').removeClass('d-none');
             })
+
+            ////////////////
+            $('.S_StepBack_4').on('click', function(){
+                $('.S_Step4').removeClass('d-none');
+                $('.S_Step5').addClass('d-none');
+                if ($('.D_step5').hasClass('d-none')) {
+                    $('.D_step3Nav').addClass('active').removeClass('disable');
+                    $('.D_step2Nav, .D_step1Nav').removeClass('active').addClass('disable');
+                }
+                if (!$('.S_Step7').hasClass('d-none')) {
+                    $('.D_step1Nav').addClass('active').addClass('disable');
+                    $('.D_step2Nav').removeClass('active').removeClass('disable');
+                }
+            });
+            $('.Goto_Step3').on('click', function(){
+                $('.S_Step4').addClass('d-none');
+                $('.D_step3').removeClass('d-none');
+            });
+
+            $('.Sendertabs input[type="radio"][value="other_purchase"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.S_Step4').addClass('d-none');
+                    $('.S_Step5').removeClass('d-none');
+                }
+                if (!$('.S_Step5').hasClass('d-none')) {
+                    $('.D_step2Nav').addClass('active').removeClass('disable');
+                    $('.D_step1Nav, .D_step3Nav').removeClass('active').addClass('disable');
+                }
+            });
+            $('.Back_D_Step3').on('click', function(){
+                $('.Individual_Wrap').addClass('d-none');
+                $('.CompanyInformation_Wrap').addClass('d-none');
+                $('.D_step3').removeClass('d-none');
+            })
+
+            ////////
+            $('.Back_to_S_Step5').on('click', function(){
+                $('.start_end_date_Wrap, .InnerForm_Heading, .departure_arr_Wrap, .pick_drop_dates_Wrap, .check_in_out_Wrap').addClass('d-none');
+                $('.S_Step5').removeClass('d-none');
+            });
+            $('.S_StepBack_5').on('click', function(){
+                $('.S_Step5').removeClass('d-none');
+                $('.S_step6').addClass('d-none');
+                if ($('.S_step6').hasClass('d-none')) {
+                    $('.D_step3Nav').removeClass('active').addClass('disable');
+                    $('.D_step2Nav').addClass('active').removeClass('disable');
+                }
+            });
+            $('.S_StepBack_3').on('click', function(){
+                $('.S_step6').removeClass('d-none');
+                $('.S_step7').addClass('d-none');
+                $('.wizard').removeClass('d-none');
+                if ($('.S_step6').hasClass('d-none')) {
+                    // $('.D_step3Nav').removeClass('active').addClass('disable');
+                    $('.D_step3Nav').addClass('active').removeClass('disable');
+                }
+            });
+
+            /////////
+            $('.Sendertabs input[type="radio"][value="start_end_date"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.start_end_date_Wrap, .InnerForm_Heading').removeClass('d-none');
+                    $('.S_Step5').addClass('d-none');
+                }
+            });
+            $('.Sendertabs input[type="radio"][value="departure_arrivals"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.departure_arr_Wrap, .InnerForm_Heading').removeClass('d-none');
+                    $('.S_Step5').addClass('d-none');
+                }
+            });
+            $('.Sendertabs input[type="radio"][value="pick_drop_dates"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.pick_drop_dates_Wrap, .InnerForm_Heading').removeClass('d-none');
+                    $('.S_Step5').addClass('d-none');
+                }
+            });
+            $('.Sendertabs input[type="radio"][value="check_in_out"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.check_in_out_Wrap, .InnerForm_Heading').removeClass('d-none');
+                    $('.S_Step5').addClass('d-none');
+                }
+            });
+
+            $('.Sendertabs input[type="radio"][value="pay_on_completion"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.pay_on_completion_Wrap').removeClass('d-none');
+                    $('.S_step7').addClass('d-none');
+                }
+            });
+            $('.Sendertabs input[type="radio"][value="pay_at_receipt"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.pay_at_receipt_Wrap').removeClass('d-none');
+                    $('.S_step7').addClass('d-none');
+                }
+            });
+            $('.Sendertabs input[type="radio"][value="pay_in_milestone"]').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.pay_in_milestone_Wrap').removeClass('d-none');
+                    $('.S_step7').addClass('d-none');
+                }
+            });
+
+            $('.Go_to_S_Step6').on('click', function(){
+                $('.start_end_date_Wrap, .InnerForm_Heading, .departure_arr_Wrap, .pick_drop_dates_Wrap, .check_in_out_Wrap').addClass('d-none');
+                $('.S_step6').removeClass('d-none');
+                if (!$('.S_step6').hasClass('d-none')) {
+                    $('.D_step2Nav').removeClass('active').addClass('disable');
+                    $('.D_step3Nav').addClass('active').removeClass('disable');
+                }
+            });
+            $('.Goto_S_step7').on('click', function(){
+                $('.start_end_date_Wrap, .InnerForm_Heading, .departure_arr_Wrap, .pick_drop_dates_Wrap, .check_in_out_Wrap').addClass('d-none');
+                $('.S_step6, .wizard').addClass('d-none');
+                $('.S_step7').removeClass('d-none');
+            });
+            $('.GoTo_Cont_Summary').on('click', function(){
+                $('.Receipts_Wrap').addClass('d-none');
+                $('.Contract_SummaryWrap').removeClass('d-none');
+            });
+            $('.S_StepBack_6').on('click', function(){
+                $('.S_step7').addClass('d-none');
+                $('.S_step6').removeClass('d-none');
+            });
+            $('.BackTo_Step7').on('click', function(){
+                $('.Contract_SummaryWrap, .Receipts_Wrap').addClass('d-none');
+                $('.S_step7').removeClass('d-none');
+            });
         });
 
         $(document).ready(function(){
@@ -357,5 +469,39 @@ Dashboard
                 }
             });
         });
+    </script>
+    <script>
+        var otp_inputs = document.querySelectorAll(".otp__digit")
+        var mykey = "0123456789".split("")
+        otp_inputs.forEach((_) => {
+            _.addEventListener("keyup", handle_next_input)
+        })
+        
+        function handle_next_input(event) {
+            let current = event.target
+            let index = parseInt(current.classList[1].split("__")[2])
+            current.value = event.key
+        
+            if (event.keyCode == 8 && index > 1) {
+                current.previousElementSibling.focus()
+            }
+            if (index < 6 && mykey.indexOf("" + event.key + "") != -1) {
+                var next = current.nextElementSibling;
+                next.focus()
+            }
+            var _finalKey = ""
+            for (let {
+                    value
+                } of otp_inputs) {
+                _finalKey += value
+            }
+            if (_finalKey.length == 6) {
+                document.querySelector("#_otp").classList.replace("_notok", "_ok")
+                document.querySelector("#_otp").innerText = _finalKey
+            } else {
+                document.querySelector("#_otp").classList.replace("_ok", "_notok")
+                document.querySelector("#_otp").innerText = _finalKey
+            }
+        }
     </script>
 @endsection

@@ -44,6 +44,7 @@ Dashboard
                         @include('dashboard.sender.forms')
                     </section>
                 </div>
+
             </div>
         </section>
     </div>

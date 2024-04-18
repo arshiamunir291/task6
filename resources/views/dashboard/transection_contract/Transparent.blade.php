@@ -6,7 +6,7 @@ Dashboard
 Dashboard
 @endsection
 @section('Main_content')
-<div class="content-body transection_dashboard" id="test">
+<div class="content-body transection_dashboard">
     <div class="row mt-5 mb-2 visitorcards">
         <div class="col-lg-3">
             <div class="visited text-left">
@@ -92,8 +92,11 @@ Dashboard
                     <p><img src="{{ asset('app-assets/images/recieved/increase.png') }}" alt=""></p>
                     <p>2% increase from last month</p>
                 </div>
+
             </div>
+
         </div>
+
     </div>
     <!-- Horizontal Wizard -->
     <section class="MultiForm_Wrap tabs_section tabs_sectionsender">
@@ -106,7 +109,9 @@ Dashboard
                                 <h1>Active Contract</h1>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
