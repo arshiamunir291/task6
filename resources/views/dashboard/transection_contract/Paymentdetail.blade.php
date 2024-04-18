@@ -53,7 +53,7 @@ nav .navbar-container .search-input.open {
                                 <div class="">
 
                                 </div>
-                            </form>
+                            </form>   
                         </div>
                     </div>
                 </div>
