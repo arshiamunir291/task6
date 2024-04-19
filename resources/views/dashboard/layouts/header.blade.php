@@ -50,7 +50,7 @@
                             data-feather="mail"></i>Verification</a>
                             
                             
-                            <a class="dropdown-item" href="{{url('Securitycenter')}}">
+                            <a class="dropdown-item" href="{{url('securitycenter')}}">
                                 <i class="me-50" data-feather="check-square"></i>Security Center</a>
                                 
                                 

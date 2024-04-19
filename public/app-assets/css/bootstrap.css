@@ -2366,8 +2366,8 @@ textarea.form-control-lg {
   .btn {
     transition: none; } }
 
-.btn:hover {
-  color: #6e6b7b; }
+/* .btn:hover {
+  color: #6e6b7b; } */
 
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;

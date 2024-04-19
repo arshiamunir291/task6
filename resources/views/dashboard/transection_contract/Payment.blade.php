@@ -9,12 +9,12 @@ MAKE PAYMENT
 <link rel="stylesheet" href="{{ asset('app-assets/simplepicker/simplepicker.css') }}" />
 <script src="{{ asset('app-assets/simplepicker/simplepicker.js') }}"></script>
 <style>
-nav .ProfileR_Nav{
+/* nav .ProfileR_Nav{
  display:none;   
 }
 nav .navbar-container .search-input.open{
  display:none;   
-}
+} */
 .payments_gateway .Step_First{
     background: #FBFFCEC4;
 }

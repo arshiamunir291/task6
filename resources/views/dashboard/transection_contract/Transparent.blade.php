@@ -189,7 +189,67 @@ active
                                                 </button>
                                                 <div class="dropdown-menu drop_set"
                                                     aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="{{url('Contractsummary') }}">
+                                                    <a class="dropdown-item" href="{{url('contractsummary') }}">
+                                                        <img src="{{ asset('app-assets/images/recieved/drop1.png') }}"
+                                                            alt="" class="me-1">View contract summary</a>
+                                                    <a class="dropdown-item" href="#"><img
+                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
+                                                            alt="" class="me-1">Edit Contract</a>
+                                                    <a class="dropdown-item" href="{{url('payment')}}">
+                                                        <img src="{{ asset('app-assets/images/recieved/drop3.png') }}"
+                                                            alt="" class="me-1">Make Payment</a>
+                                                    <a class="dropdown-item" href="#"><img
+                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
+                                                            alt="" class="me-1">Transaction History</a>
+                                                    <a class="dropdown-item" data-bs-toggle="modal"
+                                                        data-bs-target="#cancellationmodal" data-bs-whatever="@mdo"><img
+                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
+                                                            alt="" class="me-1">Request Cancellation</a>
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                    </tr> 
+                                    <tr>
+                                        <td style="border-radius: 10px 0px 0px 10px;">
+                                            01
+                                        </td>
+                                        <td>
+                                            Jhon Admin
+                                        </td>
+                                        <td>
+                                            Jhon Admin
+                                        </td>
+                                        <td>
+                                            21/02/2004
+                                        </td>
+                                        <td>
+                                            21/02/2004
+                                        </td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar"
+                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="text-end prgress_value">
+                                                <span>50%</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            $ 45,000
+                                        </td>
+                                        <td style="border-radius: 0px 10px 10px 0px;">
+                                            <div class="dropdown">
+                                                <button class="btn dropdown-toggle" type="button"
+                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
+                                                        alt="">
+                                                </button>
+                                                <div class="dropdown-menu drop_set"
+                                                    aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="{{url('contractsummary') }}">
                                                         <img src="{{ asset('app-assets/images/recieved/drop1.png') }}"
                                                             alt="" class="me-1">View contract summary</a>
                                                     <a class="dropdown-item" href="#"><img
@@ -201,536 +261,15 @@ active
                                                     <a class="dropdown-item" href="#"><img
                                                             src="{{ asset('app-assets/images/recieved/drop4.png') }}"
                                                             alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
+                                                    <a class="dropdown-item" data-bs-toggle="modal"
+                                                        data-bs-target="#cancellationmodal" data-bs-whatever="@mdo"><img
                                                             src="{{ asset('app-assets/images/recieved/drop5.png') }}"
                                                             alt="" class="me-1">Request Cancellation</a>
                                                 </div>
                                             </div>
 
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000  
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="border-radius: 10px 0px 0px 10px;">
-                                            01
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            Jhon Admin
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            21/02/2004
-                                        </td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="text-end prgress_value">
-                                                <span>50%</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            $ 45,000
-                                        </td>
-                                        <td style="border-radius: 0px 10px 10px 0px;">
-                                            <div class="dropdown">
-                                                <button class="btn dropdown-toggle" type="button"
-                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <img src="{{ asset('app-assets/images/recieved/transtable.png') }}"
-                                                        alt="">
-                                                </button>
-                                                <div class="dropdown-menu drop_set"
-                                                    aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop1.png') }}"
-                                                            alt="" class="me-1">View contract summary</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop2.png') }}"
-                                                            alt="" class="me-1">Edit Contract</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop3.png') }}"
-                                                            alt="" class="me-1">Make Payment</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop4.png') }}"
-                                                            alt="" class="me-1">Transaction History</a>
-                                                    <a class="dropdown-item" href="#"><img
-                                                            src="{{ asset('app-assets/images/recieved/drop5.png') }}"
-                                                            alt="" class="me-1">Request Cancellation</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    </tr> 
                                 </tbody>
                             </table>
 
@@ -742,8 +281,51 @@ active
             </div>
         </div>
     </section>
+
     <!-- /Horizontal Wizard -->
 </div>
+
+
+
+<!-- Cancellation Modal -->
+<!-- <div class="modal fade" id="cancellationmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content canellation-modal-content">
+            <div class="modal-header cancellation-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cancellation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Reason for Cancellation :</label>
+                        <select class="cancel-modal-select">
+                        <option value="" disabled selected>Select a reason</option>
+                            <option value="">Reason 2</option>
+                            <option value="">Reason 4</option>
+                            <option value="">Reason 5</option>
+                            <option value="">Reason 3</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control cancel-textarea" id="message-text"
+                            placeholder="Add description"></textarea>
+                    </div>
+                </form>
+                <div class="modal-note">
+                    <p>Note :</p>
+                    <p>Lorem ipsum is placeholder text commonly used in the
+                        graphic, print, and publishing industries for previewing
+                        layouts and visual mockups.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn cancelation-cancel-btn" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn req-cancel-btn">Request Cancellation</button>
+            </div>
+        </div>
+    </div>
+</div> -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function() {

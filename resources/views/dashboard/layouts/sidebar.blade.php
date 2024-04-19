@@ -56,25 +56,25 @@
                 </a>
                 <ul class="menu-content">
                     <li class="@yield('Active_Contracts')">
-                        <a class="d-flex align-items-center" href="{{url('Mycontracts/Activecontract')}}">
+                        <a class="d-flex align-items-center" href="{{url('mycontracts/activecontract')}}">
                             <img src="{{ asset('app-assets/images/dash_images/active-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="List">Active Contracts</span>
                         </a>
                     </li>
                     <li class="@yield('Recieved_Contracts')">
-                        <a class="d-flex align-items-center" href="{{url('Mycontracts/Recievedcontract')}}">
+                        <a class="d-flex align-items-center" href="{{url('mycontracts/recievedcontract')}}">
                             <img src="{{ asset('app-assets/images/dash_images/recieved-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Preview">Received</span>
                         </a>
                     </li>
                     <li class="@yield('Cancelled_Contracts')">
-                        <a class="d-flex align-items-center" href="{{url('Mycontracts/Cancelled')}}">
+                        <a class="d-flex align-items-center" href="{{url('mycontracts/cancelled')}}">
                             <img src="{{ asset('app-assets/images/dash_images/cancelled-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Edit">Cancelled</span>
                         </a>
                     </li>
                     <li class="@yield('Completed_Contracts')">
-                        <a class="d-flex align-items-center" href="{{url('Mycontracts/Completedcontract')}}">
+                        <a class="d-flex align-items-center" href="{{url('mycontracts/completedcontract')}}">
                             <img src="{{ asset('app-assets/images/dash_images/completed-contract.svg') }}" alt="" class="me-1">
                             <span class="menu-item text-truncate" data-i18n="Add">Completed</span>
                         </a>

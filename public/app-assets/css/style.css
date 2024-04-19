@@ -1,4 +1,4 @@
-@import url('../css/fonts.css');
+@import url("../css/fonts.css");
 
 .Stack_Cards .card {
     background: rgba(215, 245, 157, 1);
@@ -32,7 +32,7 @@
 .Stack_Cards .card .apexcharts-canvas .apexcharts-text {
     fill: rgba(42, 42, 42, 1) !important;
     font-size: 36px;
-    font-family: 'Clash_Display_Bold' !important;
+    font-family: "Clash_Display_Bold" !important;
 }
 
 #basic-table .card {
@@ -50,7 +50,7 @@
 }
 
 .Step_First .InnerText h3 {
-    font-family: 'Raleway_Bold';
+    font-family: "Raleway_Bold";
     font-size: 25px;
     color: #000;
     text-transform: uppercase;
@@ -97,7 +97,8 @@
     background: rgba(52, 52, 52, 1);
 }
 
-.NextBtns_bots .InnerBtns {}
+.NextBtns_bots .InnerBtns {
+}
 
 .NextBtns_bots .InnerBtns .backBtn {
     border: 1px solid rgba(130, 130, 130, 1);
@@ -106,21 +107,21 @@
     border-radius: 6px;
     letter-spacing: 1px;
     margin-right: 12px;
-    font-family: 'Raleway_Light';
+    font-family: "Raleway_Light";
 }
 
 .NextBtns_bots .InnerBtns .startedBtn,
-.UploadBtnForm{
+.UploadBtnForm {
     background: rgba(66, 164, 255, 1);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
     padding: 12px 30px 12px 30px;
     border-radius: 6px;
     letter-spacing: 1px;
     color: #fff;
-    font-family: 'Raleway_Light';
+    font-family: "Raleway_Light";
     border: 1px solid rgba(66, 164, 255, 1);
 }
-.UploadBtnForm{
+.UploadBtnForm {
     border-radius: 30px;
 }
 .FormStepLine .FormStep {
@@ -128,7 +129,7 @@
 }
 
 .FormStepLine .FormStep::before {
-    content: '';
+    content: "";
     position: absolute;
     left: calc(100% - 50%);
     background-color: rgba(180, 180, 180, 1);
@@ -138,49 +139,49 @@
 }
 
 .FormStep .form-label {
-    font-family: 'Raleway_Bold';
+    font-family: "Raleway_Bold";
     font-size: 14px !important;
     font-weight: 600 !important;
     color: #000 !important;
 }
 
 .FormStep h2 {
-    font-family: 'Raleway_Bold';
+    font-family: "Raleway_Bold";
     color: #000;
     font-size: 33px;
 }
 
 .FormStep h4.card-title {
-    font-family: 'Raleway_Bold';
+    font-family: "Raleway_Bold";
     font-size: 22px;
     color: #000;
 }
 
 p.Step_Count {
-    font-family: 'Raleway_Light';
+    font-family: "Raleway_Light";
     font-size: 18px;
     color: rgba(78, 78, 78, 1);
 }
 
 /* Recieved payment */
 @font-face {
-    font-family: 'Gilroy';
-    src: url('../fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype');
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Ralewayfont';
-    src: url('../fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+    font-family: "Ralewayfont";
+    src: url("../fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Ralewayfontbold';
-    src: url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-family: "Ralewayfontbold";
+    src: url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Ralewayfont2';
-    src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-family: "Ralewayfont2";
+    src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
 }
 
 .Sendertabs {
@@ -193,10 +194,10 @@ p.Step_Count {
 
 .Sendertabs label {
     font-size: 18px;
-    font-family: 'Gilroy';
+    font-family: "Gilroy";
     background: rgba(215, 245, 157, 0.77);
     border-radius: 10px;
-    border: 1px solid #8D8D8D;
+    border: 1px solid #8d8d8d;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -204,9 +205,9 @@ p.Step_Count {
     width: 338px;
     height: 206px;
     align-items: center;
-    color: #3E3E3E;
+    color: #3e3e3e;
     text-transform: uppercase;
-    box-shadow: 0px 0px 33.65127944946289px 3.365128517150879px #3333331F;
+    box-shadow: 0px 0px 33.65127944946289px 3.365128517150879px #3333331f;
 }
 
 .Sendertabs input[type="radio"] {
@@ -232,64 +233,59 @@ p.Step_Count {
 
 .tabs_section .hidetest {
     display: none;
-
 }
 
 .other_page .Purchase_form label {
     display: block;
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 45px;
 }
 
 .other_page .Purchase_form input.account_nmbr {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
-
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .other_page .Purchase_form input::placeholder {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 15px;
     opacity: 60%;
-
 }
 
 .other_page .Purchase_form textarea {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    Height: 120px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    height: 120px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
     resize: none;
-
 }
 
 .other_page .Purchase_form textarea::placeholder {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 15px;
     opacity: 60%;
-
 }
 
 .other_page .schedule_dates input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     border-radius: 10px;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    Height: 42px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    height: 42px;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
     padding-left: 36px;
 }
 
@@ -299,7 +295,7 @@ p.Step_Count {
 }
 
 .other_page .schedule_dates input::placeholder {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 15px;
     opacity: 60%;
 }
@@ -330,39 +326,38 @@ p.Step_Count {
 }
 
 .other_page .form_submit input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .other_page .form_submit input::placeholder {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 15px;
     opacity: 60%;
 }
 
 .other_page .form_submit label {
     display: block;
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 45px;
 }
 
 .other_page .form_submit .paymewnt_iccue button {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 15px;
     padding: 7px 13px 7px 13px;
     border-radius: 18px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: none;
     display: flex;
     align-items: center;
-
 }
 
 .other_page .form_submit .paymewnt_iccue {
@@ -370,12 +365,10 @@ p.Step_Count {
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 30px;
-
 }
 
 .other_page .form_submit .paymewnt_iccue button img {
     margin-right: 10px;
-
 }
 
 .other_page .form_submit .paymewnt_iccue button span {
@@ -385,12 +378,12 @@ p.Step_Count {
 .other_page .form_submit .upload button {
     padding: 11px 45px 11px 46px;
     border-radius: 26px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
-    background: #58C7FF;
-    border: 1px solid #E1E1E1;
-    font-family: 'Ralewayfont';
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
+    background: #58c7ff;
+    border: 1px solid #e1e1e1;
+    font-family: "Ralewayfont";
     font-size: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .purchase .InnerBtns .backBtn {
@@ -413,7 +406,7 @@ p.Step_Count {
     border-bottom-color: transparent;
 }
 
-.step_formsrecieved .wizard>div.wizard-inner {
+.step_formsrecieved .wizard > div.wizard-inner {
     position: relative;
     margin-bottom: 50px;
     margin-left: 18px;
@@ -432,12 +425,12 @@ p.Step_Count {
     z-index: 1;
 } */
 
-.step_formsrecieved .wizard .nav-tabs>li.active>a,
-.step_formsrecieved .wizard .nav-tabs>li.active>a:hover,
-.step_formsrecieved .wizard .nav-tabs>li.active>a:focus,
-.DotsLeft .nav-tabs>li.active>a,
-.DotsLeft .nav-tabs>li.active>a:hover,
-.DotsLeft .nav-tabs>li.active>a:focus {
+.step_formsrecieved .wizard .nav-tabs > li.active > a,
+.step_formsrecieved .wizard .nav-tabs > li.active > a:hover,
+.step_formsrecieved .wizard .nav-tabs > li.active > a:focus,
+.DotsLeft .nav-tabs > li.active > a,
+.DotsLeft .nav-tabs > li.active > a:hover,
+.DotsLeft .nav-tabs > li.active > a:focus {
     color: #555555;
     cursor: default;
     border: 0;
@@ -487,29 +480,29 @@ p.Step_Count {
 
 .step_formsrecieved .wizard li.active span.round-tab,
 .DotsLeft .nav-tabs li.active span.round-tab {
-    background: #42A4FF;
+    background: #42a4ff;
     color: #fff;
-    border-color: #42A4FF;
+    border-color: #42a4ff;
 }
 
 .step_formsrecieved .wizard li.active span.round-tab i {
     color: #5bc0de;
 }
 
-.step_formsrecieved .wizard .nav-tabs>li,
-.DotsLeft .nav-tabs>li {
+.step_formsrecieved .wizard .nav-tabs > li,
+.DotsLeft .nav-tabs > li {
     width: 25%;
     position: relative;
 }
-.step_formsrecieved .wizard .nav-tabs>li::before {
-    content: '';
+.step_formsrecieved .wizard .nav-tabs > li::before {
+    content: "";
     background-color: #fff;
     width: 100%;
     position: absolute;
     top: 14px;
     height: 1px;
 }
-.step_formsrecieved .wizard .nav-tabs>li:last-child::before{
+.step_formsrecieved .wizard .nav-tabs > li:last-child::before {
     width: 0%;
 }
 .step_formsrecieved .wizard li:after {
@@ -524,8 +517,8 @@ p.Step_Count {
     transition: 0.1s ease-in-out;
 }
 
-.step_formsrecieved .wizard .nav-tabs>li a,
-.DotsLeft .nav-tabs>li a {
+.step_formsrecieved .wizard .nav-tabs > li a,
+.DotsLeft .nav-tabs > li a {
     width: 30px;
     height: 30px;
     margin: 20px auto;
@@ -536,7 +529,7 @@ p.Step_Count {
     top: 0;
 }
 
-.step_formsrecieved .wizard .nav-tabs>li a i {
+.step_formsrecieved .wizard .nav-tabs > li a i {
     position: absolute;
     top: 45px;
     font-style: normal;
@@ -549,7 +542,7 @@ p.Step_Count {
     color: #000;
 }
 
-.step_formsrecieved .wizard .nav-tabs>li a:hover {
+.step_formsrecieved .wizard .nav-tabs > li a:hover {
     background: transparent;
 }
 
@@ -557,45 +550,45 @@ p.Step_Count {
 /* Sender payment */
 .tabs_sectionsender .InnerText p,
 .S_step7 .InnerText p {
-    font-family: 'Raleway_Bold';
+    font-family: "Raleway_Bold";
     font-size: 19px;
-    color: #0056D8;
+    color: #0056d8;
     text-transform: uppercase;
 }
 
 .Receipts_Wrap label {
     display: block;
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 45px;
     color: #000000;
 }
 
 .Receipts_Wrap .Refundable input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 0 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .Receipts_Wrap .schedule_dates input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 20px 12px 42px;
     border-radius: 10px;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .Receipts_Wrap .Refundable input::placeholder {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
+    color: #2d5bff;
 }
 
 .Receipts_Wrap .Refundable .select_dateinput2 {
@@ -621,8 +614,6 @@ p.Step_Count {
 .Receipts_Wrap .datepickerfields input::placeholder {
     color: #000000;
     opacity: 60%;
-
-
 }
 
 .Receipts_Wrap .schedule_dates .select_dateinput {
@@ -641,56 +632,56 @@ p.Step_Count {
 }
 
 .Receipts_Wrap .Intermediary input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .Receipts_Wrap .Intermediary input::placeholder {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
+    color: #2d5bff;
 }
 
 /*  */
 .tabs_sectionsender .step3 label {
     display: block;
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 45px;
     color: #000000;
 }
 
 .tabs_sectionsender .step3 .Refundable input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .tabs_sectionsender .step3 .schedule_dates input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 20px 12px 42px;
     border-radius: 10px;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .tabs_sectionsender .step3 .Refundable input::placeholder {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
+    color: #2d5bff;
 }
 
 .tabs_sectionsender .step3 .Refundable .select_dateinput2 {
@@ -716,8 +707,6 @@ p.Step_Count {
 .tabs_sectionsender .step3 .datepickerfields input::placeholder {
     color: #000000;
     opacity: 60%;
-
-
 }
 
 .tabs_sectionsender .step3 .schedule_dates .select_dateinput {
@@ -736,57 +725,57 @@ p.Step_Count {
 }
 
 .tabs_sectionsender .step3 .Intermediary input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .tabs_sectionsender .step3 .Intermediary input::placeholder {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
+    color: #2d5bff;
 }
 
 /*  */
 /*  */
 .Receipts_Wrap label {
     display: block;
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 45px;
     color: #000000;
 }
 
 .Receipts_Wrap .Refundable input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .Receipts_Wrap .schedule_dates input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 20px 12px 42px;
     border-radius: 10px;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .Receipts_Wrap .Refundable input::placeholder {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
+    color: #2d5bff;
 }
 
 .Receipts_Wrap .Refundable .select_dateinput2 {
@@ -812,8 +801,6 @@ p.Step_Count {
 .Receipts_Wrap .datepickerfields input::placeholder {
     color: #000000;
     opacity: 60%;
-
-
 }
 
 .Receipts_Wrap .schedule_dates .select_dateinput {
@@ -832,46 +819,42 @@ p.Step_Count {
 }
 
 .Receipts_Wrap .Intermediary input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 191px 12px 29px;
     border-radius: 10px;
     width: 100%;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .Receipts_Wrap .Intermediary input::placeholder {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
+    color: #2d5bff;
 }
 
 .Receipts_Wrap .add_userbtn button {
     background: transparent;
     border: none;
-
 }
 
 .Receipts_Wrap .stepform_2 span {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
-
+    color: #2d5bff;
 }
 
 .Receipts_Wrap .stepform_2 span {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    color: #2D5BFF;
-
+    color: #2d5bff;
 }
 
 .Receipts_Wrap .stepform_2 .data {
     gap: 33%;
     flex-wrap: wrap;
-
 }
 
 /*  */
@@ -879,7 +862,7 @@ p.Step_Count {
 /* contract Summary */
 .Contract_SummaryWrap label {
     display: block;
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 45px;
     color: #000000;
@@ -892,15 +875,14 @@ p.Step_Count {
 .Contract_SummaryWrap .summary-wrap .date-wrap {
     width: fit-content;
     background: #fff;
-    border: 0.9px solid #E1E1E1;
-    box-shadow: 0px 0px 16.22px -4.5px #0000001A;
+    border: 0.9px solid #e1e1e1;
+    box-shadow: 0px 0px 16.22px -4.5px #0000001a;
     border-radius: 10px;
     margin-bottom: 20px;
-
 }
 
 .Contract_SummaryWrap .summary-wrap .date-wrap p {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 15px;
     color: #00000099;
     opacity: 60%;
@@ -909,7 +891,7 @@ p.Step_Count {
 }
 
 .Contract_SummaryWrap .head-wrap h2 {
-    font-family: 'Ralewayfontbold';
+    font-family: "Ralewayfontbold";
     font-size: 22px;
     color: #101010;
     margin-top: -50px;
@@ -918,9 +900,9 @@ p.Step_Count {
 
 .Contract_SummaryWrap .sender-wrap .sender-title p,
 .Contract_SummaryWrap .reciver-wrap .Reciever-title p {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 20px;
-    color: #578ED5;
+    color: #578ed5;
     margin-top: -50px;
     text-transform: uppercase;
     font-style: italic;
@@ -928,19 +910,19 @@ p.Step_Count {
 
 .Contract_SummaryWrap .sender-wrap input,
 .Contract_SummaryWrap .reciver-wrap input {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     padding: 12px 68px 12px 29px;
     border-radius: 10px;
     outline: none;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 15px;
-    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001A;
+    box-shadow: 0px 0px 17.099458694458008px -4.749849796295166px #0000001a;
 }
 
 .Contract_SummaryWrap .Agrement p {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 20px;
-    color: #578ED5;
+    color: #578ed5;
     text-transform: uppercase;
     font-style: italic;
 }
@@ -964,15 +946,15 @@ p.Step_Count {
 }
 
 .Contract_SummaryWrap .Pyment_terms p {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 20px;
-    color: #578ED5;
+    color: #578ed5;
     text-transform: uppercase;
     font-style: italic;
 }
 
 .Contract_SummaryWrap .Pyment_terms span {
-    font-family: 'Ralewayfontbold';
+    font-family: "Ralewayfontbold";
     font-size: 15px;
     color: #101010;
 }
@@ -1005,7 +987,7 @@ p.Step_Count {
     width: 20px;
     background-color: transparent;
     border-radius: 4px;
-    border: 0.5px solid #00C2FF;
+    border: 0.5px solid #00c2ff;
     text-align: center;
     outline: none;
     font-size: 10px;
@@ -1013,7 +995,7 @@ p.Step_Count {
 
 .otp-input-fields input:focus {
     border-width: 2px;
-    border-color: darken(#00C2FF, 5%);
+    border-color: darken(#00c2ff, 5%);
 }
 
 .Contract_SummaryWrap .pin_code table {
@@ -1023,31 +1005,31 @@ p.Step_Count {
 .Contract_SummaryWrap .pin_code .sendotp_btn {
     padding: 10px;
     border-radius: 8px;
-    background: #52B6FF;
-    font-family: 'Ralewayfont';
+    background: #52b6ff;
+    font-family: "Ralewayfont";
     font-size: 12px;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
     width: 75%;
 }
 
 .pin_code .code_transect {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 20px;
-    color: #578ED5;
+    color: #578ed5;
     text-transform: uppercase;
     font-style: italic;
 }
 
 .contract_table .custom_wrap {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 16px;
     color: #000000;
 }
 
 .payment_schedule .custom_wrap {
-    font-family: 'Ralewayfont';
+    font-family: "Ralewayfont";
     font-size: 16px;
     line-height: 16px;
     color: #000000;
@@ -1055,13 +1037,13 @@ p.Step_Count {
 
 .contract_table .table_head span {
     display: block;
-    font-family: 'Ralewayfontbold';
+    font-family: "Ralewayfontbold";
     font-size: 16px;
     font-weight: 600;
     line-height: 17px;
     border-radius: 6px;
-    border: 1px solid #000000B2;
-    background: #FFFFFF;
+    border: 1px solid #000000b2;
+    background: #ffffff;
     color: #000;
     padding: 10px 0px 10px 30px;
     border-width: 0.44px;
@@ -1071,14 +1053,14 @@ p.Step_Count {
 
 .payment_schedule .table_head span {
     display: block;
-    font-family: 'Ralewayfontbold';
+    font-family: "Ralewayfontbold";
     font-size: 16px;
     font-weight: 600;
     line-height: 17px;
     border-radius: 6px 0px 0px 6px;
-    border: 1px solid #000000B2;
+    border: 1px solid #000000b2;
     border-right: none;
-    background: #FFFFFF;
+    background: #ffffff;
     color: #000;
     padding: 10px 0px 10px 30px;
     border-width: 0.44px;
@@ -1088,75 +1070,67 @@ p.Step_Count {
 
 .contract_table .tablebr_data {
     text-align: center;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     color: #000000;
     font-size: 15px;
-    border: 0.88px solid #FFFFFF;
+    border: 0.88px solid #ffffff;
     padding: 10px 0px 10px 0px;
-
 }
 
 .pin_code .tablebr_data {
     text-align: center;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     color: #000000;
     font-size: 15px;
-    border: 0.88px solid #FFFFFF;
+    border: 0.88px solid #ffffff;
     padding: 10px 0px 10px 0px;
-
 }
 
 .payment_schedule .tablebr_data {
     text-align: center;
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     color: #000000;
     font-size: 15px;
-    border: 0.88px solid #FFFFFF;
+    border: 0.88px solid #ffffff;
     padding: 10px 0px 10px 0px;
-
 }
 
 .payment_schedule .bdr {
     border-top: none;
     border-bottom: none;
-
 }
 
 .payment_schedule .bdr2 {
     border-top: none;
-
 }
 
 .payment_schedule .bdr3 {
     border-right: none;
-
 }
 
 .payment_schedule .bdrleft {
     border-left: none;
-
 }
 
 .contract_table .special,
 .payment_schedule .special {
     text-align: center;
-    font-family: 'Ralewayfontbold';
+    font-family: "Ralewayfontbold";
     color: #000000;
     font-size: 15px;
     padding: 10px 0px 10px 0px;
-
 }
 
 .payment_schedule .table_head2 span {
     display: block;
-    font-family: 'Ralewayfontbold';
+    font-family: "Ralewayfontbold";
     font-size: 14px;
     font-weight: 600;
     line-height: 17px;
     border-radius: 0px 6px 6px 0px;
-    border: 1px solid #000000B2;
+    border: 1px solid #000000b2;
     border-left: none;
-    background: #FFFFFF;
+    background: #ffffff;
     color: #000;
     padding: 10px 0px 10px 30px;
     border-width: 0.44px;
@@ -1167,7 +1141,6 @@ p.Step_Count {
 }
 
 @media (max-width: 992px) {
-
     .Contract_SummaryWrap .contract_table,
     .Contract_SummaryWrap .payment_schedule,
     .Contract_SummaryWrap .pin_code {
@@ -1186,13 +1159,13 @@ p.Step_Count {
 /* contract Summary */
 /* transection Contract */
 .transection_dashboard .Step_First {
-    background: #FBFFCEC4;
-    border: 1.44px solid #898989
+    background: #fbffcec4;
+    border: 1.44px solid #898989;
 }
 
 .transection_dashboard .Step_First .range button,
 .transection_dashboard .Step_First .status button {
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 10px;
 }
 
@@ -1202,19 +1175,17 @@ p.Step_Count {
     background-size: contain;
     height: 15px;
     width: 15px;
-
 }
 
 .transection_dashboard .Step_First .filters button {
-    background-color: #0C99FF !important;
+    background-color: #0c99ff !important;
     box-shadow: 0px 0px 10.35px 0px #00000014;
     border: none !important;
     border-radius: 10px;
 }
 
 .transection_dashboard .Step_First .filters button:hover {
-    box-shadow: 0 8px 25px -8px #0C99FF !important;
-
+    box-shadow: 0 8px 25px -8px #0c99ff !important;
 }
 
 .transection_dashboard .transdetail_chart table {
@@ -1235,12 +1206,12 @@ p.Step_Count {
 
 .transection_dashboard .transdetail_chart table thead tr {
     border-radius: 50px;
-    background: #9F9F9F33;
+    background: #9f9f9f33;
 }
 
 .transection_dashboard .transdetail_chart table tbody tr {
-    background: #9F9F9F33;
-    border: 1px solid #ACACAC;
+    background: #9f9f9f33;
+    border: 1px solid #acacac;
     text-align: center;
 }
 
@@ -1258,55 +1229,57 @@ p.Step_Count {
 }
 
 .transection_dashboard .transdetail_chart table .paid {
-    color: #00FF0A;
+    color: #00ff0a;
 }
 
 .transection_dashboard .transdetail_chart table .cancell {
-    color: #FF0000;
+    color: #ff0000;
 }
 
 @font-face {
-    font-family: 'clash displaybold';
-    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Bold.eot') format('truetype');
+    font-family: "clash displaybold";
+    src: url("../fonts/ClashDisplay_Complete/ClashDisplay-Bold.eot")
+        format("truetype");
 }
 
 @font-face {
-    font-family: 'clash displayregular';
-    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Light.eot') format('truetype');
+    font-family: "clash displayregular";
+    src: url("../fonts/ClashDisplay_Complete/ClashDisplay-Light.eot")
+        format("truetype");
 }
 
 @font-face {
-    font-family: 'clash displaymedium';
-    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Medium.eot') format('truetype');
+    font-family: "clash displaymedium";
+    src: url("../fonts/ClashDisplay_Complete/ClashDisplay-Medium.eot")
+        format("truetype");
 }
 
 @font-face {
-    font-family: 'clash displayextrabold';
-    src: url('../fonts/ClashDisplay_Complete/ClashDisplay-Bold.ttf') format('truetype');
+    font-family: "clash displayextrabold";
+    src: url("../fonts/ClashDisplay_Complete/ClashDisplay-Bold.ttf")
+        format("truetype");
 }
 
 .transection_dashboard .transdetail_chart table thead th {
-    font-family: 'clash displaybold';
+    font-family: "clash displaybold";
     line-height: 16px;
-    color: #2B2B36;
+    color: #2b2b36;
 }
 
 .transection_dashboard .transdetail_chart table tbody td {
     font-weight: 600;
-    font-family: 'clash displaybold';
+    font-family: "clash displaybold";
     font-size: 16px;
-    color: #2B2B36;
-
+    color: #2b2b36;
 }
 
 .transection_dashboard .transdetail_chart {
     overflow: auto;
-
 }
 
 .transection_dashboard .Step_First .range,
 .transection_dashboard .Step_First .status {
-    font-family: 'clash displaybold';
+    font-family: "clash displaybold";
     font-size: 12px;
     color: #161616;
 }
@@ -1320,9 +1293,9 @@ p.Step_Count {
 }
 
 .transection_dashboard .Step_First .filters button {
-    font-family: 'Raleway_Bold';
+    font-family: "Raleway_Bold";
     font-size: 12px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .transection_dashboard .transdetail_chart table tbody .drop_set::before {
@@ -1336,7 +1309,7 @@ p.Step_Count {
     background-image: url("../images/recieved/Vector.png");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 .transection_dashboard .transdetail_chart table tbody .drop_set {
     right: 14px;
@@ -1350,19 +1323,18 @@ p.Step_Count {
     line-height: 8px;
 }
 
-
 /* transection Contract */
 /* Earning page */
 .transection_dashboard .Step_First .Balance {
-    font-family: 'clash displaybold';
+    font-family: "clash displaybold";
     font-size: 16px;
-    color: #4176FF;
+    color: #4176ff;
 }
 
 .transection_dashboard .Step_First .Balance span {
-    font-family: 'clash displayextrabold';
+    font-family: "clash displayextrabold";
     font-size: 16px;
-    color: #4176FF;
+    color: #4176ff;
 }
 
 .transection_dashboard .Earning_chart table {
@@ -1377,20 +1349,20 @@ p.Step_Count {
 }
 
 .transection_dashboard .Earning_chart table thead tr th {
-    font-family: 'Ralewayfont2';
-    color: #3D3D3D;
+    font-family: "Ralewayfont2";
+    color: #3d3d3d;
     font-size: 16px;
 }
 
 .transection_dashboard .Earning_chart table tbody td {
-    font-family: 'clash displayregular';
-    color: #1B1B1B;
+    font-family: "clash displayregular";
+    color: #1b1b1b;
     font-size: 16px;
 }
 
 .transection_dashboard .Earning_chart table tbody .price {
-    font-family: 'clash displayextrabold';
-    color: #44553B;
+    font-family: "clash displayextrabold";
+    color: #44553b;
     font-size: 16px;
 }
 
@@ -1398,32 +1370,30 @@ p.Step_Count {
     cursor: pointer;
     color: #414141;
     margin-top: 50px;
-
 }
 
 .transection_dashboard .Earning_chart table tbody .claering_status button {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 16px;
-    background: linear-gradient(to right, #00CB39 50%, #D6D6D6 50%);
-
+    background: linear-gradient(to right, #00cb39 50%, #d6d6d6 50%);
 }
 
 .transection_dashboard .earningcards .Earnedcard {
-    background: #F4F2A6;
-    box-shadow: 0px 0px 11.52px 0px #0000001A;
+    background: #f4f2a6;
+    box-shadow: 0px 0px 11.52px 0px #0000001a;
     border-radius: 20px;
     padding: 3rem 3rem 2rem;
 }
 
 .transection_dashboard .earningcards .Earnedcard .head span {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 14px;
     font-weight: 500;
     line-height: 23px;
-    color: #44553B;
+    color: #44553b;
     display: block;
     margin: 10px 0px 10px 0px;
 }
@@ -1433,17 +1403,17 @@ p.Step_Count {
     font-size: 16px;
     font-weight: 600;
     line-height: 23px;
-    color: #2E2E2E;
+    color: #2e2e2e;
     display: block;
 }
 
 /* Earning page */
 /* Transparent page */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
 .transection_dashboard .visitorcards .visited {
-    background: #F4F2A6;
-    box-shadow: 0px 0px 11.52px 0px #0000001A;
+    background: #f4f2a6;
+    box-shadow: 0px 0px 11.52px 0px #0000001a;
     border-radius: 20px;
     padding: 3rem 2rem 2rem;
     border: 1px solid #898989;
@@ -1456,8 +1426,7 @@ p.Step_Count {
     font-weight: 600;
     line-height: 30.48px;
     letter-spacing: 0.01em;
-    color: #2B2D38;
-
+    color: #2b2d38;
 }
 
 .transection_dashboard .visitorcards .visited .price2 .sp1 {
@@ -1466,8 +1435,7 @@ p.Step_Count {
     font-weight: 600;
     line-height: 30px;
     letter-spacing: 0.01em;
-    color: #2B2D38;
-
+    color: #2b2d38;
 }
 
 .transection_dashboard .visitorcards .visited .price2 .sp2 {
@@ -1476,19 +1444,17 @@ p.Step_Count {
     font-weight: 600;
     line-height: 17px;
     letter-spacing: 0.04em;
-    color: #2B2D38;
-
+    color: #2b2d38;
 }
 
 .transection_dashboard .visitorcards .visited .Total_visit span {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 14px;
     font-weight: 500;
     line-height: 23px;
     color: #797979;
     display: block;
     margin: 10px 0px 10px 0px;
-
 }
 
 .transection_dashboard .visitorcards .visited .monthlyresults {
@@ -1500,61 +1466,57 @@ p.Step_Count {
 }
 
 .transection_dashboard .visitorcards .visited .monthlyresults p {
-    font-family: 'Ralewayfont2';
+    font-family: "Ralewayfont2";
     font-size: 14px;
     font-weight: 500;
     line-height: 23px;
     color: #060606;
     display: block;
     margin: 10px 0px 10px 0px;
-
 }
 
 .transection_dashboard .Step_First .transdetail_chart h1 {
-    color: #2A2A2A;
-    font-family: 'clash displayextrabold';
+    color: #2a2a2a;
+    font-family: "clash displayextrabold";
     font-size: 15px;
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0.02em;
-
 }
 
 .transection_dashboard .Step_First .progress .bg-success {
-    background-color: #80DF53 !important;
+    background-color: #80df53 !important;
 }
 
 .transection_dashboard .Step_First .progress {
-    background-color: #2B2B36 !important;
+    background-color: #2b2b36 !important;
     height: 5px;
     margin-top: 14px;
 }
 
 .transection_dashboard .Step_First .prgress_value span {
-    color: #2B2B36;
-    font-family: 'clash displayregular';
+    color: #2b2b36;
+    font-family: "clash displayregular";
     font-size: 10px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0.02em;
 }
 
-
 /* Transparent page */
 /* Profile page */
 .Profile_section .Profile h1 {
     text-transform: uppercase;
-    font-family: 'clash displayextrabold';
+    font-family: "clash displayextrabold";
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-
 }
 
 .Profile_section .Step_First {
-    background: #FBFFCEC4;
-    border: 1.44px solid #898989
+    background: #fbffcec4;
+    border: 1.44px solid #898989;
 }
 
 .Profile_section .NextBtns_bots {
@@ -1572,7 +1534,7 @@ p.Step_Count {
 .Profile_section .Step_First .profile_pic .user {
     position: relative;
     border-radius: 50%;
-    border: 4.25px solid #26B8934D
+    border: 4.25px solid #26b8934d;
 }
 
 .Profile_section .Step_First .profile_pic .user .profilechange_icon {
@@ -1584,12 +1546,12 @@ p.Step_Count {
 
 .Profile_section .Step_First .profile_pic .face_verify,
 .Profile_section .Step_First .profile_pic .id_verify {
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
-    background: #58E1FF;
+    background: #58e1ff;
     border: none;
-    font-family: 'clash displaybold';
+    font-family: "clash displaybold";
     font-size: 16px;
     font-weight: 600;
     line-height: 21px;
@@ -1597,39 +1559,39 @@ p.Step_Count {
 
 .Profile_section .user_detail label {
     display: block;
-    color: #083A50;
-    font-family: 'clash displayregular';
+    color: #083a50;
+    font-family: "clash displayregular";
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    margin:5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
 }
 
 .Profile_section .user_detail .credencials input {
-    border: 1px solid #26B893;
+    border: 1px solid #26b893;
     padding: 10px;
     border-radius: 8px;
     width: 100%;
 }
 
 .Profile_section .user_detail .name_wrap input {
-    border: 1px solid #26B893;
+    border: 1px solid #26b893;
     padding: 10px;
     border-radius: 8px;
     width: 100%;
 }
 
 .Profile_section .user_detail input::placeholder {
-    color: #083A50;
-    font-family: 'clash displayregular';
+    color: #083a50;
+    font-family: "clash displayregular";
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
 }
 
 .Profile_section .user_detail input {
-    color: #083A50;
-    font-family: 'clash displayregular';
+    color: #083a50;
+    font-family: "clash displayregular";
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -1637,20 +1599,20 @@ p.Step_Count {
 }
 
 .Profile_section .user_detail select {
-    border: 1px solid #26B893;
+    border: 1px solid #26b893;
     padding: 10px;
     border-radius: 8px;
     width: 100%;
-    color: #083A50;
-    font-family: 'clash displayregular';
+    color: #083a50;
+    font-family: "clash displayregular";
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
 }
 
 .Profile_section .user_detail select option {
-    color: #083A50;
-    font-family: 'clash displayregular';
+    color: #083a50;
+    font-family: "clash displayregular";
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -1668,14 +1630,12 @@ p.Step_Count {
 }
 
 .Profile_section .tabs_sectionsender .modal .modal-content {
-    box-shadow: 0px 0px 50px 0px #0000001A;
-    background: #DDE07C;
-
+    box-shadow: 0px 0px 50px 0px #0000001a;
+    background: #dde07c;
 }
 
 .Profile_section .tabs_sectionsender .modal .modal-footer {
     border: none;
-
 }
 
 .Profile_section .tabs_sectionsender .modal .face_verification p {
@@ -1683,54 +1643,205 @@ p.Step_Count {
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0.02em;
-
 }
-.Profile_section .tabs_sectionsender .modal  .facedetect{
-   margin:50px 0px 50px 0px;
-
+.Profile_section .tabs_sectionsender .modal .facedetect {
+    margin: 50px 0px 50px 0px;
 }
-.Profile_section .tabs_sectionsender .modal  .modal-body{
-  padding: 30px;
-
+.Profile_section .tabs_sectionsender .modal .modal-body {
+    padding: 30px;
 }
 
 /* Profile page */
 
-
 /* Security page css start */
-.create-pin-title h1{
-font-family: 'Clash_Display_SemiBold';
+.create-pin-title h1 {
+    font-family: "Clash_Display_SemiBold";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.6px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pin-select select {
+    width: 193px;
+    height: 45px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #aeaeae;
+}
+.generate-btn {
+    width: 100%;
+    max-width: 158px;
+}
+.generate-btn button {
+    width: 100%;
+    height: 40px;
+    padding: 10px 17px;
+    border-radius: 5px;
+    background: #42a4ff;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+.bg-off-white {
+    background: #fbffcec4;
+    border: 1.44px solid #898989;
+}
+.create-pin-content {
+    padding: 30px 40px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.Create-pin-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.account-activity-content {
+    padding: 40px 20px;
+}
+.activity-title h1 {
+    font-family: "Clash_Display_SemiBold";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.6px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+/* BANK DETAILS CONTENT CSS START */
+.bank-detail-content {
+    border-radius: 6px;
+    padding: 50px 20px;
+    border: 1.44px solid #898989;
+}
+.bank-detail-title h1 {
+    font-family: "Clash_Display_SemiBold";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.45px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2a2a2a;
+}
+.bank-details-input {
+    position: relative;
+}
+.input-img {
+    position: absolute;
+    top: 40px;
+    margin: 0px 15px;
+}
+.bank-details-input input {
+    width: 100%;
+    height: 52px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 1px solid #aeaeae;
+    margin-top: 25px;
+    max-width: 523px;
+}
+.bank-detail-list-items {
+    width: 100%;
+    max-width: 500px;
+    margin: 60px auto 0px auto;
+}
+.bank-detail-list-items li {
+    font-family: "clash_display_Regular";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.99px;
+    text-align: center;
+    list-style: disc;
+    color: #42a4ff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.bank-detail-desc textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 210px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #aeaeae;
+}
+.detail-upload-button button {
+    width: Fixed (195px) px;
+    height: Fixed (47px) px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background-color: #42a4ff;
+    font-family: "Ralewayfont2";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    margin-top: 53px;
+}
+.cancel-modal-select{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #AEAEAE;
+}
+.canellation-modal-content ,
+.cancellation-header{
+background: #DDE07C !important;
+}
+.cancel-textarea{
+    border: 1px solid #AEAEAE;
+   
+}
+.cancelation-cancel-btn{
+    background-color: transparent;
+    border: 1px solid #AEAEAE;
+}
+.cancelation-cancel-btn .btn:hover{
+    color: inherit;
+}
+
+.req-cancel-btn{
+    background: #42A4FF;
+    color: #fff;
+}
+.req-cancel-btn .btn:hover{
+    color: #fff !important;
+}
+
+/* TRANSACTION HISTORY CSS START  */
+.history-input{
+    width:100%;
+height: 34px;
+border-radius: 5px;
+border: 1px solid #AEAEAE;
+margin-bottom: 50px;
+padding: 10px;
+
+}
+
+.bank-transfer-heading p{
+font-family: "clash displaymedium";
 font-size: 20px;
 font-weight: 500;
 line-height: 24.6px;
 letter-spacing: 0.02em;
 text-align: left;
+color:#2A2A2A;
 text-transform: uppercase;
-color:#000000;
-text-align: center;
-}
-
-.pin-select select{
-width: 100%;
-max-width: 193px;
-height: 45px;
-top: 277px;
-left: 694.75px;
-padding: 15px 11px 13px 14px;
-border-radius: 10px ;
-border: 1px solid #AEAEAE;
-}
-.generate-btn button{
-    width:100%;
- max-width: 158px;
-height:40px;
-padding: 10px 17px ;
-border-radius: 5px;
-background: #42A4FF;
-font-family: Raleway;
-font-size: 17px;
-font-weight: 400;
-line-height: 20px;
-text-align: center;
-color:#FFFFFF;
 }
