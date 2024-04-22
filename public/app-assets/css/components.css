@@ -1345,9 +1345,9 @@ footer.footer-border {
   line-height: 16px;
   padding: 1.6rem 3.6rem; }
 
-.navbar-container .search-input.open {
+  .navbar-container .search-input.open {
     position: absolute;
-    top: 0;
+    top: 11px;
     left: calc(100% - 77%);
     z-index: 1000;
     width: 50%;

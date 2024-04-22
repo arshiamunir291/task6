@@ -52,6 +52,9 @@
         background: rgba(244, 242, 166, 1);
         box-shadow: 0px 0px 11.274335861206055px 1.1274335384368896px rgba(112, 112, 112, 0.15);
     }
+    .header-navbar.floating-nav{
+        background: #ffcc34 !important;
+    }
 </style>
 </head>
 <!-- END: Head-->

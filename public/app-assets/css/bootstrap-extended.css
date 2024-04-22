@@ -695,10 +695,12 @@ select:-webkit-autofill {
 .header-navbar.floating-nav {
   position: fixed;
   right: 0;
-  margin: 1.3rem auto 0;
+  margin: 1rem auto 0;
   width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 260px);
   border-radius: 0.428rem;
-  z-index: 12; }
+  z-index: 12; 
+  padding: 12px;
+}
 
 .header-navbar.navbar-static-top {
   top: 0;

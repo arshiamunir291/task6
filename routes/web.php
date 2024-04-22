@@ -53,3 +53,6 @@ Route::get('/requestCancellation', function () {
 Route::get('/transactionhistory', function () {
     return view('dashboard.transection_contract.TransactionHistory');
 });
+Route::get('/productservices', function () {
+    return view('dashboard.Services.Productservices');
+});

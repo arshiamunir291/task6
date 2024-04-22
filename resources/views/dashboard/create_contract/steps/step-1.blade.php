@@ -1,6 +1,6 @@
 <div class="row D_step1">
     <div class="col-md-6">
-        <img src="{{ asset('app-assets/images/dash_images/step-1.svg') }}" alt="" width="100%">
+        <img src="{{ asset('app-assets/images/dash_images/step-1.svg') }}" alt="">
     </div>
     <div class="col-md-6">
         <div class="InnerText">
